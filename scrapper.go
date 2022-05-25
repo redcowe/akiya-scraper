@@ -8,23 +8,20 @@ import (
 
 //Akiya structure declaration
 type Akiya struct {
-	Title string `json:"title"`
-	//Link	  string `json:"link"`
-	//Description string`json:"description"`
-	Price string `json:"price"`
-	//Layout    string `json:"layout"`
-	//Area      string `json:"area"`
-	//Type      string `json:"type"`
-	//ConYear   string `json:conyear"`
-	//Location  string `json:location"`
-	//Transport string `json:transport"`
+	Title  string `json:"title"`
+	Link   string `json:"link"`
+	Price  string `json:"price"`
+	Layout string `json:"layout"`
+	// Area     string `json:"area"`
+	// Type     string `json:"type"`
+	// Location string `json:location`
 }
 
 func main() {
 
 	akiyaSlice := []Akiya{}
 	c := colly.NewCollector(
-		// Visit only domains: hackerspaces.org, wiki.hackerspaces.org
+		//Setting domains
 		colly.AllowedDomains(
 			"akiya-athome.jp/",
 			"https://www.akiya-athome.jp",
@@ -35,11 +32,14 @@ func main() {
 	// On every a element which has href attribute call callback
 	c.OnHTML("section.propety", func(e *colly.HTMLElement) {
 		akiyaHTML := e.DOM
+		link := e.Attr("href")
 		akiya := Akiya{
-			Title: akiyaHTML.Find("div.propetyTitle").Text(),
-			Price: akiyaHTML.Find("dl.price").Text(),
+			Title:  akiyaHTML.Find("div.propetyTitle").Text(),
+			Link:   link,
+			Price:  akiyaHTML.Find("dl.price").Text(),
+			Layout: akiyaHTML.Find("ul.flex").Nodes[0].FirstChild.NextSibling.Data,
 		}
-		fmt.Println(akiya.Title, akiya.Price)
+		fmt.Println(akiya.Title, akiya.Price, akiya.Link, akiya.Layout)
 		akiyaSlice = append(akiyaSlice, akiya)
 	})
 
