@@ -6,23 +6,41 @@ import (
 	"github.com/gocolly/colly"
 )
 
+//Akiya structure declaration
+type Akiya struct {
+	Title string `json:"title"`
+	//Link	  string `json:"link"`
+	//Price     string `json:"price"`
+	//Layout    string `json:"layout"`
+	//Area      string `json:"area"`
+	//Type      string `json:"type"`
+	//ConYear   string `json:conyear"`
+	//Location  string `json:location"`
+	//Transport string `json:transport"`
+}
+
 func main() {
-	// Instantiate default collector
+
+	akiyaSlice := []Akiya{}
 	c := colly.NewCollector(
 		// Visit only domains: hackerspaces.org, wiki.hackerspaces.org
-		colly.AllowedDomains("tokyodev.com"),
+		colly.AllowedDomains("akiya-athome.jp/"),
 	)
 
 	// On every a element which has href attribute call callback
-	c.OnHTML("a[href]", func(e *colly.HTMLElement) {
-		link := e.Attr("href")
-		// Print link
-		fmt.Printf("Link found: %q -> %s\n", e.Text, link)
-		// Visit link found on page
-		// Only those links are visited which are in AllowedDomains
-		c.Visit(e.Request.AbsoluteURL(link))
+	c.OnHTML("section.propety", func(e *colly.HTMLElement) {
+		akiyaHTML := e.DOM
+
+		akiya := Akiya{
+			Title: akiyaHTML.Find("div.propetyTitle").Text(),
+		}
+		fmt.Println(akiya.Title)
+		akiyaSlice = append(akiyaSlice, akiya)
 	})
 
+	c.OnRequest(func(r *colly.Request) {
+		fmt.Println("Visiting", r.URL.String())
+	})
 	// Start scraping on https://hackerspaces.org
-	c.Visit("https://www.tokyodev.com")
+	c.Visit("https://www.akiya-athome.jp/buy/34/")
 }
