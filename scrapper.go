@@ -14,9 +14,18 @@ type Akiya struct {
 	Link   string `json:"link"`
 	Price  string `json:"price"`
 	Layout string `json:"layout"`
+	Desc   string `json:"desc"`
 	// Area     string `json:"area"`
 	// Type     string `json:"type"`
 	// Location string `json:location`
+}
+
+//helper function for converting empty layouts into proper strings
+func layoutEmptyConvert(s *string) string {
+	if *s == "" {
+		*s = "不明"
+	}
+	return *s
 }
 
 func main() {
@@ -33,15 +42,18 @@ func main() {
 
 	c.OnHTML("section.propety", func(e *colly.HTMLElement) {
 		akiyaHTML := e.DOM
-		link := e.Attr("href")
+		layout := akiyaHTML.Find("ul.flex").Find("li").Find("dl").Find("dd:contains(DK)").Text()
 
 		akiya := Akiya{
-			Title:  strings.TrimSpace(akiyaHTML.Find("div.propetyTitle").Find("a[href]").Text()),
-			Link:   link,
+			Title:  strings.TrimSpace(akiyaHTML.Find("div.propetyTitle").Find("a").Text()),
+			Link:   akiyaHTML.Find("div.propetyTitle").Find("a[href]").Text(),
 			Price:  akiyaHTML.Find("dl.price").Find("dd").Text(),
-			Layout: akiyaHTML.Find("ul.flex").Find("li").Find("dl").Find("dd:contains(DK)").Text(),
+			Layout: layoutEmptyConvert(&layout),
+			Desc:   akiyaHTML.Find("div.description").Text(),
 		}
 		akiyaSlice = append(akiyaSlice, akiya)
+
+		//JSONifying the object
 		akiyaJSON, err := json.MarshalIndent(akiya, "", " ")
 		if err != nil {
 			fmt.Println(err)
