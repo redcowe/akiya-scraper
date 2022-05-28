@@ -46,7 +46,7 @@ func main() {
 
 		akiya := Akiya{
 			Title:  strings.TrimSpace(akiyaHTML.Find("div.propetyTitle").Find("a").Text()),
-			Link:   akiyaHTML.Find("div.propetyTitle").Find("a[href]").Text(),
+			Link:   akiyaHTML.Find("div.propetyTitle").Find("a").AttrOr("href", "N/A"),
 			Price:  akiyaHTML.Find("dl.price").Find("dd").Text(),
 			Layout: layoutEmptyConvert(&layout),
 			Desc:   akiyaHTML.Find("div.description").Text(),
