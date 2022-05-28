@@ -34,11 +34,12 @@ func main() {
 	c.OnHTML("section.propety", func(e *colly.HTMLElement) {
 		akiyaHTML := e.DOM
 		link := e.Attr("href")
+
 		akiya := Akiya{
-			Title:  strings.TrimSpace(akiyaHTML.Find("div.propetyTitle").Text()),
+			Title:  strings.TrimSpace(akiyaHTML.Find("div.propetyTitle").Find("a[href]").Text()),
 			Link:   link,
 			Price:  akiyaHTML.Find("dl.price").Find("dd").Text(),
-			Layout: akiyaHTML.Find("ul.flex").Find("dd").Nodes[0].Firs.FirstChild.Data.Text(),
+			Layout: akiyaHTML.Find("ul.flex").Find("li").Find("dl").Find("dd:contains(DK)").Text(),
 		}
 		akiyaSlice = append(akiyaSlice, akiya)
 		akiyaJSON, err := json.MarshalIndent(akiya, "", " ")
@@ -53,6 +54,6 @@ func main() {
 		fmt.Println("Visiting", r.URL.String())
 	})
 
-	c.Visit("https://www.akiya-athome.jp/buy/34/?br_kbn=buy&pref_cd=34&page=1&search_sort=kokai_date&item_count=10")
+	c.Visit("https://www.akiya-athome.jp/buy/01/?br_kbn=buy&pref_cd=01&page=1&search_sort=kokai_date&item_count=10")
 
 }
