@@ -4,9 +4,11 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
+	"os"
 	"strings"
 
 	"github.com/gocolly/colly"
+	"github.com/joho/godotenv"
 )
 
 //Akiya structure declaration
@@ -39,7 +41,15 @@ func writeFile(data []Akiya, locationID string) {
 }
 func main() {
 
-	locationID := "04"
+	//Setting ENV variables
+	err := godotenv.Load()
+	if err != nil {
+		fmt.Println("Failed to load .env file")
+		os.Exit(1)
+	}
+
+	//Location and URL that can be edited
+	locationID := "02"
 	url := "https://www.akiya-athome.jp/buy/" + locationID + "/" + "?br_kbn=buy&pref_cd=" + locationID + "&page=1&search_sort=kokai_date&item_count=10"
 	//https://www.akiya-athome.jp/buy/38/?br_kbn=buy&pref_cd=38&page=1&search_sort=kokai_date&item_count=50
 	//https://www.akiya-athome.jp/buy/" + locationID + "/" + "?br_kbn=buy&pref_cd=" + locationID + "&page=1&search_sort=kokai_date&item_count=100
