@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"io/ioutil"
 	"strings"
 
 	"github.com/gocolly/colly"
@@ -27,7 +28,20 @@ func descEmptyConvert(s *string) string {
 	return *s
 }
 
+//function for JSONifying the object and writing to a file
+func writeFile(data []Akiya, locationID string) {
+	file, err := json.MarshalIndent(data, "", " ")
+	if err != nil {
+		return
+	}
+	_ = ioutil.WriteFile(locationID+".json", file, 0644)
+}
 func main() {
+
+	locationID := "02"
+	url := "https://www.akiya-athome.jp/buy/" + locationID + "/" + "?br_kbn=buy&pref_cd=" + locationID + "&page=1&search_sort=kokai_date&item_count=10"
+	//https://www.akiya-athome.jp/buy/38/?br_kbn=buy&pref_cd=38&page=1&search_sort=kokai_date&item_count=50
+	//https://www.akiya-athome.jp/buy/" + locationID + "/" + "?br_kbn=buy&pref_cd=" + locationID + "&page=1&search_sort=kokai_date&item_count=100
 
 	akiyaSlice := []Akiya{}
 	c := colly.NewCollector(
@@ -42,7 +56,7 @@ func main() {
 	c.OnHTML("section.propety", func(e *colly.HTMLElement) {
 		akiyaHTML := e.DOM
 		desc := akiyaHTML.Find("div.description").Text()
-		akiya := Akiya{
+		akiya := Akiya{ //Filling akiya object
 			Title:    strings.TrimSpace(akiyaHTML.Find("div.propetyTitle").Find("a").Text()),
 			Link:     akiyaHTML.Find("div.propetyTitle").Find("a").AttrOr("href", "N/A"),
 			Price:    akiyaHTML.Find("dl.price").Find("dd").Text(),
@@ -51,21 +65,18 @@ func main() {
 			Type:     akiyaHTML.Find("div.objectTitle.cf").Find("span.objectCategory.objectCategory_buy").Text(),
 			Location: akiyaHTML.Find("ul.all").Find("li").Find("dt:contains(所在地)").Next().Text(),
 		}
-		akiyaSlice = append(akiyaSlice, akiya)
-
-		//JSONifying the object
 		akiyaJSON, err := json.MarshalIndent(akiya, "", " ")
 		if err != nil {
-			fmt.Println(err)
 			return
 		}
 		fmt.Println(string(akiyaJSON))
+		akiyaSlice = append(akiyaSlice, akiya)
 	})
 
 	c.OnRequest(func(r *colly.Request) {
 		fmt.Println("Visiting", r.URL.String())
 	})
 
-	c.Visit("https://www.akiya-athome.jp/buy/03/?br_kbn=buy&pref_cd=03&page=1&search_sort=kokai_date&item_count=10")
-
+	c.Visit(url)
+	writeFile(akiyaSlice, locationID)
 }
