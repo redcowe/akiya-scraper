@@ -6,7 +6,8 @@
   "desc": "住宅のある宅地及びその周りの土地も含めた売買希望です（約820坪）。",
   "area": "131.4㎡2712.52㎡",
   "type": "売戸建",
-  "location": "北海道磯谷郡蘭越町字相生"
+  "location": "北海道磯谷郡蘭越町字相生",
+  "locationId": "01"
  },
  {
   "title": "蘭越町字上里No.22-4",
@@ -15,7 +16,8 @@
   "desc": "自然豊かな立地です。物置や離れもあります。",
   "area": "56.2㎡826㎡",
   "type": "売戸建",
-  "location": "北海道磯谷郡蘭越町字上里"
+  "location": "北海道磯谷郡蘭越町字上里",
+  "locationId": "01"
  },
  {
   "title": "空き家（浦幌町字帯富154番地68）",
@@ -24,7 +26,8 @@
   "desc": "N/A",
   "area": "357㎡",
   "type": "売戸建",
-  "location": "北海道十勝郡浦幌町字帯富"
+  "location": "北海道十勝郡浦幌町字帯富",
+  "locationId": "01"
  },
  {
   "title": "空き地（浦幌町字吉野38番地１）",
@@ -33,7 +36,8 @@
   "desc": "N/A",
   "area": "495㎡",
   "type": "売土地",
-  "location": "北海道十勝郡浦幌町字吉野"
+  "location": "北海道十勝郡浦幌町字吉野",
+  "locationId": "01"
  },
  {
   "title": "空き地（浦幌町字寿町88番地１、87番地１の一部）",
@@ -42,7 +46,8 @@
   "desc": "N/A",
   "area": "533.88㎡",
   "type": "売土地",
-  "location": "北海道十勝郡浦幌町字寿町"
+  "location": "北海道十勝郡浦幌町字寿町",
+  "locationId": "01"
  },
  {
   "title": "空き地（浦幌町字吉野189番地8）",
@@ -51,7 +56,8 @@
   "desc": "N/A",
   "area": "1057.67㎡",
   "type": "売土地",
-  "location": "北海道十勝郡浦幌町字吉野"
+  "location": "北海道十勝郡浦幌町字吉野",
+  "locationId": "01"
  },
  {
   "title": "空き地（浦幌町字栄町64番地３）",
@@ -60,7 +66,8 @@
   "desc": "N/A",
   "area": "3923㎡",
   "type": "売土地",
-  "location": "北海道十勝郡浦幌町字栄町"
+  "location": "北海道十勝郡浦幌町字栄町",
+  "locationId": "01"
  },
  {
   "title": "空き家（浦幌町字宝町53番地73）",
@@ -69,7 +76,8 @@
   "desc": "N/A",
   "area": "198.36㎡",
   "type": "売戸建",
-  "location": "北海道十勝郡浦幌町字宝町"
+  "location": "北海道十勝郡浦幌町字宝町",
+  "locationId": "01"
  },
  {
   "title": "空き地（浦幌町字本町70番地２）",
@@ -78,7 +86,8 @@
   "desc": "N/A",
   "area": "317.88㎡",
   "type": "売土地",
-  "location": "北海道十勝郡浦幌町字本町"
+  "location": "北海道十勝郡浦幌町字本町",
+  "locationId": "01"
  },
  {
   "title": "蘭越町港町No.22-1",
@@ -87,456 +96,7 @@
   "desc": "海の近くにある非常にキレイな物件です",
   "area": "112.54㎡220.56㎡",
   "type": "売戸建",
-  "location": "北海道磯谷郡蘭越町港町"
- },
- {
-  "title": "ＪＲ室蘭本線 栗山駅",
-  "link": "https://kuriyama-t01429.akiya-athome.jp/bukken/detail/buy/18693",
-  "price": "600万円",
-  "desc": "N/A",
-  "area": "49.58㎡672.12㎡",
-  "type": "売戸建",
-  "location": "北海道夕張郡栗山町朝日３丁目"
- },
- {
-  "title": "登録番号31",
-  "link": "https://kuriyama-t01429.akiya-athome.jp/bukken/detail/buy/18698",
-  "price": "620万円",
-  "desc": "N/A",
-  "area": "340.89㎡",
-  "type": "売土地",
-  "location": "北海道夕張郡栗山町中央３丁目"
- },
- {
-  "title": "登録番号30",
-  "link": "https://kuriyama-t01429.akiya-athome.jp/bukken/detail/buy/18697",
-  "price": "相談",
-  "desc": "N/A",
-  "area": "325㎡",
-  "type": "売土地",
-  "location": "北海道夕張郡栗山町字継立"
- },
- {
-  "title": "登録番号27",
-  "link": "https://kuriyama-t01429.akiya-athome.jp/bukken/detail/buy/18695",
-  "price": "相談",
-  "desc": "N/A",
-  "area": "581.1㎡",
-  "type": "売土地",
-  "location": "北海道夕張郡栗山町桜丘１丁目"
- },
- {
-  "title": "登録番号19",
-  "link": "https://kuriyama-t01429.akiya-athome.jp/bukken/detail/buy/18694",
-  "price": "200万円",
-  "desc": "N/A",
-  "area": "333.06㎡",
-  "type": "売土地",
-  "location": "北海道夕張郡栗山町字湯地"
- },
- {
-  "title": "登録番号17",
-  "link": "https://kuriyama-t01429.akiya-athome.jp/bukken/detail/buy/18692",
-  "price": "相談",
-  "desc": "N/A",
-  "area": "487.91㎡",
-  "type": "売土地",
-  "location": "北海道夕張郡栗山町錦３丁目"
- },
- {
-  "title": "登録番号9",
-  "link": "https://kuriyama-t01429.akiya-athome.jp/bukken/detail/buy/17530",
-  "price": "50万円",
-  "desc": "N/A",
-  "area": "336.9㎡",
-  "type": "売土地",
-  "location": "北海道夕張郡栗山町角田"
- },
- {
-  "title": "登録番号8",
-  "link": "https://kuriyama-t01429.akiya-athome.jp/bukken/detail/buy/17529",
-  "price": "相談",
-  "desc": "N/A",
-  "area": "433.48㎡",
-  "type": "売土地",
-  "location": "北海道夕張郡栗山町角田"
- },
- {
-  "title": "登録番号5",
-  "link": "https://kuriyama-t01429.akiya-athome.jp/bukken/detail/buy/17528",
-  "price": "250万円",
-  "desc": "N/A",
-  "area": "215.89㎡",
-  "type": "売土地",
-  "location": "北海道夕張郡栗山町桜丘１丁目"
- },
- {
-  "title": "登録番号1",
-  "link": "https://kuriyama-t01429.akiya-athome.jp/bukken/detail/buy/17527",
-  "price": "625万円",
-  "desc": "N/A",
-  "area": "375.01㎡",
-  "type": "売土地",
-  "location": "北海道夕張郡栗山町中央４丁目"
- },
- {
-  "title": "空き地（浦幌町字本町41番地1）",
-  "link": "https://urahoro-t01649.akiya-athome.jp/bukken/detail/buy/18967",
-  "price": "相談",
-  "desc": "N/A",
-  "area": "500.03㎡",
-  "type": "売土地",
-  "location": "北海道十勝郡浦幌町字本町"
- },
- {
-  "title": "空き家（浦幌町字オコッペ3の35）",
-  "link": "https://urahoro-t01649.akiya-athome.jp/bukken/detail/buy/18966",
-  "price": "相談",
-  "desc": "N/A",
-  "area": "115.17㎡217㎡",
-  "type": "売戸建",
-  "location": "北海道十勝郡浦幌町字オコツペ"
- },
- {
-  "title": "空き地⑨",
-  "link": "https://chippubetsu-t01434.akiya-athome.jp/bukken/detail/buy/18768",
-  "price": "100万円",
-  "desc": "問合せは役場 企画課 まで\nTEL：0164-33-2111\n売買は所有者様との話し合いとなります。\n詳細については秩父別町HPをご確認ください。",
-  "area": "230.74㎡",
-  "type": "売土地",
-  "location": "北海道雨竜郡秩父別町"
- },
- {
-  "title": "蘭越町蘭越町 No.21-17（農地付き）",
-  "link": "https://rankoshi-t01394.akiya-athome.jp/bukken/detail/buy/18636",
-  "price": "700万円",
-  "desc": "敷地面積が約750坪とかなり広いです。町の中心地に近く生活に便利な立地です。\n農地付き空き家のため売買には条件があります。",
-  "area": "159.5㎡2579.84㎡",
-  "type": "売戸建",
-  "location": "北海道磯谷郡蘭越町蘭越町"
- },
- {
-  "title": "空き地⑦",
-  "link": "https://chippubetsu-t01434.akiya-athome.jp/bukken/detail/buy/18429",
-  "price": "95万円",
-  "desc": "問合せは役場 企画課 まで\nTEL：0164-33-2111\n売買は所有者様との話し合いとなります。\n詳細については秩父別町HPをご確認ください。",
-  "area": "784.61㎡",
-  "type": "売土地",
-  "location": "北海道雨竜郡秩父別町"
- },
- {
-  "title": "空き地⑧",
-  "link": "https://chippubetsu-t01434.akiya-athome.jp/bukken/detail/buy/18430",
-  "price": "150万円",
-  "desc": "問合せは役場 企画課 まで\nTEL：0164-33-2111\n売買は所有者様との話し合いとなります。\n詳細については秩父別町HPをご確認ください。",
-  "area": "553.46㎡",
-  "type": "売土地",
-  "location": "北海道雨竜郡秩父別町"
- },
- {
-  "title": "蘭越町名駒町 No.21-11",
-  "link": "https://rankoshi-t01394.akiya-athome.jp/bukken/detail/buy/18229",
-  "price": "60万円",
-  "desc": "リフォーム、家具処分、解体＋新築の補助対象物件です。\n住宅から少し離れた場所にある土地（家庭菜園に丁度良い広さ）も併せての売買となります。\n",
-  "area": "142.97㎡137.46㎡",
-  "type": "売戸建",
-  "location": "北海道磯谷郡蘭越町名駒町"
- },
- {
-  "title": "蘭越町目名町 No.21-4",
-  "link": "https://rankoshi-t01394.akiya-athome.jp/bukken/detail/buy/17327",
-  "price": "300万円",
-  "desc": "住宅のある宅地の隣の土地も含めた売買となります。\n解体・建直し／リフォーム費用の補助対象物件です。",
-  "area": "132.81㎡1052.63㎡",
-  "type": "売戸建",
-  "location": "北海道磯谷郡蘭越町目名町"
- },
- {
-  "title": "空き地⑥",
-  "link": "https://chippubetsu-t01434.akiya-athome.jp/bukken/detail/buy/17106",
-  "price": "80万円",
-  "desc": "問合せは役場 企画課 まで\nTEL：0164-33-2111\n売買は所有者様との話し合いとなります。\n詳細については秩父別町HPをご確認ください。",
-  "area": "339.32㎡",
-  "type": "売土地",
-  "location": "北海道雨竜郡秩父別町"
- },
- {
-  "title": "空き地（浦幌町字寿町）",
-  "link": "https://urahoro-t01649.akiya-athome.jp/bukken/detail/buy/16581",
-  "price": "160万円",
-  "desc": "N/A",
-  "area": "337㎡",
-  "type": "売土地",
-  "location": "北海道十勝郡浦幌町字寿町"
- },
- {
-  "title": "空き家①",
-  "link": "https://chippubetsu-t01434.akiya-athome.jp/bukken/detail/buy/12759",
-  "price": "180万円",
-  "desc": "・価格要相談\n・問合せは役場 企画課 企画グループまで\n　TEL：0164-33-2111\n売買は所有者様との話し合いとなります。秩父別町URL\nhttps://www.town.chippubetsu.hokkaido.jp/category/detail.html?category=life\u0026content=230",
-  "area": "209㎡430㎡",
-  "type": "売戸建",
-  "location": "北海道雨竜郡秩父別町"
- },
- {
-  "title": "空き地①",
-  "link": "https://chippubetsu-t01434.akiya-athome.jp/bukken/detail/buy/12761",
-  "price": "相談",
-  "desc": "・価格要相談\n・問合せは役場 企画課 企画グループまで\n　TEL：0164-33-2111\n売買は所有者様との話し合いとなります。",
-  "area": "185.19㎡",
-  "type": "売土地",
-  "location": "北海道雨竜郡秩父別町"
- },
- {
-  "title": "空き地②",
-  "link": "https://chippubetsu-t01434.akiya-athome.jp/bukken/detail/buy/12765",
-  "price": "相談",
-  "desc": "・価格要相談\n・問合せは役場 企画課 企画グループまで\n　TEL：0164-33-2111\n・売買は所有者様との話し合いとなります。",
-  "area": "254㎡",
-  "type": "売土地",
-  "location": "北海道雨竜郡秩父別町"
- },
- {
-  "title": "空き地④",
-  "link": "https://chippubetsu-t01434.akiya-athome.jp/bukken/detail/buy/12767",
-  "price": "相談",
-  "desc": "・価格要相談\n・問合せは役場 企画課 企画グループまで\n　TEL：0164-33-2111\n・売買は所有者様との話し合いとなります。",
-  "area": "397.17㎡",
-  "type": "売土地",
-  "location": "北海道雨竜郡秩父別町"
- },
- {
-  "title": "空き地⑤",
-  "link": "https://chippubetsu-t01434.akiya-athome.jp/bukken/detail/buy/12768",
-  "price": "相談",
-  "desc": "・価格要相談\n・問合せは役場 企画課 企画グループまで\n　TEL：0164-33-2111\n・売買は所有者様との話し合いとなります。\n",
-  "area": "217.48㎡",
-  "type": "売土地",
-  "location": "北海道雨竜郡秩父別町"
- },
- {
-  "title": "売地【10】",
-  "link": "https://kamisunagawa-t01425.akiya-athome.jp/bukken/detail/buy/12638",
-  "price": "50万円",
-  "desc": "N/A",
-  "area": "190.17㎡",
-  "type": "売土地",
-  "location": "北海道空知郡上砂川町字上砂川町"
- },
- {
-  "title": "売地【09】",
-  "link": "https://kamisunagawa-t01425.akiya-athome.jp/bukken/detail/buy/12636",
-  "price": "相談",
-  "desc": "N/A",
-  "area": "170.18㎡",
-  "type": "売土地",
-  "location": "北海道空知郡上砂川町字上砂川町"
- },
- {
-  "title": "北海道岩内町万代空き地（R1-3）",
-  "link": "https://iwanai-t01402.akiya-athome.jp/bukken/detail/buy/11070",
-  "price": "450万円",
-  "desc": "N/A",
-  "area": "240.79㎡",
-  "type": "売土地",
-  "location": "北海道岩内郡岩内町字万代"
- },
- {
-  "title": "売地【08】",
-  "link": "https://kamisunagawa-t01425.akiya-athome.jp/bukken/detail/buy/10612",
-  "price": "20万円",
-  "desc": "N/A",
-  "area": "198.3㎡",
-  "type": "売土地",
-  "location": "北海道空知郡上砂川町字鶉"
- },
- {
-  "title": "売地【07】",
-  "link": "https://kamisunagawa-t01425.akiya-athome.jp/bukken/detail/buy/10611",
-  "price": "相談",
-  "desc": "N/A",
-  "area": "855.33㎡",
-  "type": "売土地",
-  "location": "北海道空知郡上砂川町字鶉"
- },
- {
-  "title": "売地【03】",
-  "link": "https://kamisunagawa-t01425.akiya-athome.jp/bukken/detail/buy/10610",
-  "price": "相談",
-  "desc": "N/A",
-  "area": "191.93㎡",
-  "type": "売土地",
-  "location": "北海道空知郡上砂川町字上砂川町"
- },
- {
-  "title": "売地【01】",
-  "link": "https://kamisunagawa-t01425.akiya-athome.jp/bukken/detail/buy/10609",
-  "price": "50万円",
-  "desc": "N/A",
-  "area": "260.56㎡",
-  "type": "売土地",
-  "location": "北海道空知郡上砂川町字鶉"
- },
- {
-  "title": "売事業用【52】",
-  "link": "https://urakawa-t01607.akiya-athome.jp/bukken/detail/buy/10335",
-  "price": "相談",
-  "desc": "こちらの物件は住居用としての利用はできません。\nアトリエやギャラリー等のワークスペースとしてのご活用をおすすめします。",
-  "area": "381.49㎡222.07㎡",
-  "type": "売事業用(区分)",
-  "location": "北海道浦河郡浦河町浜町"
- },
- {
-  "title": "北海道岩内町高台空き地（H30-10）",
-  "link": "https://iwanai-t01402.akiya-athome.jp/bukken/detail/buy/10260",
-  "price": "330万円",
-  "desc": "徒歩５分以内にドラッグストアがある、便利な立地です。",
-  "area": "206.61㎡",
-  "type": "売土地",
-  "location": "北海道岩内郡岩内町字高台"
- },
- {
-  "title": "北海道岩内町高台空き地（H30-7）",
-  "link": "https://iwanai-t01402.akiya-athome.jp/bukken/detail/buy/9974",
-  "price": "相談",
-  "desc": "N/A",
-  "area": "264.47㎡",
-  "type": "売土地",
-  "location": "北海道岩内郡岩内町字高台"
- },
- {
-  "title": "ＪＲ室蘭本線 豊浦駅/車4分",
-  "link": "https://toyoura-t01571.akiya-athome.jp/bukken/detail/buy/6323",
-  "price": "400万円",
-  "desc": "N/A",
-  "area": "",
-  "type": "売土地",
-  "location": "北海道虻田郡豊浦町字旭町"
- },
- {
-  "title": "売倉庫【No.41 東町倉庫】",
-  "link": "https://urakawa-t01607.akiya-athome.jp/bukken/detail/buy/5386",
-  "price": "385万円",
-  "desc": "売買価格（385万円・土地付き）、賃貸可（月額75,000円）、短期・長期にかかわらず対応します。・売買価格は相談に応じますので、お気軽にお問い合わせください。",
-  "area": "46.28㎡482㎡",
-  "type": "売事業用(一棟)",
-  "location": "北海道浦河郡浦河町東町うしお２丁目"
- },
- {
-  "title": "北海道岩内町万代戸建（二世帯同居可、近隣駐車場あり）",
-  "link": "https://iwanai-t01402.akiya-athome.jp/bukken/detail/buy/4905",
-  "price": "400万円",
-  "desc": "町の中心市街地にありながら海も近く（徒歩５分）、トイレ・キッチンが各階１室ずつある、二世帯同居も可能な物件です。徒歩７分以内に銀行やスーパー等があります。町の中心市街地に近く、すべて徒歩で、公園が１分以内、銀行・幼稚園・海が５分以内、スーパーが７分以内の距離にあります。小樽・札幌、倶知安方面へのバスの発着があるバスターミナルも徒歩３分以内にあります。",
-  "area": "99.36㎡83.3㎡",
-  "type": "売戸建",
-  "location": "北海道岩内郡岩内町字万代"
- },
- {
-  "title": "豊浦町字浜町1-53、浜町1-109",
-  "link": "https://toyoura-t01571.akiya-athome.jp/bukken/detail/buy/4930",
-  "price": "250万円",
-  "desc": "N/A",
-  "area": "",
-  "type": "売土地",
-  "location": "北海道虻田郡豊浦町字浜町"
- },
- {
-  "title": "北海道岩内町御崎空き地（H30-15）",
-  "link": "https://iwanai-t01402.akiya-athome.jp/bukken/detail/buy/4576",
-  "price": "相談",
-  "desc": "公園が徒歩１分以内（距離１７ｍ）、スーパーとドラッグストアが徒歩７分以内にあります。スーパーから徒歩１分以内には金融機関もあり、利便性の高い立地です。徒歩８分以内に金融機関（信用金庫）、スーパー、ドラッグストアがあり、徒歩で充実した日常生活を送ることができます。海の近くにある、公道に面した更地です。",
-  "area": "297.34㎡",
-  "type": "売土地",
-  "location": "北海道岩内郡岩内町字御崎"
- },
- {
-  "title": "北海道岩内町大浜空き地（H30-14）",
-  "link": "https://iwanai-t01402.akiya-athome.jp/bukken/detail/buy/4558",
-  "price": "100万円",
-  "desc": "町内を循環するバスのバス停まで徒歩１分以内の距離にある、海が近い空き地です。２筆あわせての売却希望です。徒歩６分以内にコンビニエンスストアがあります。道路を挟んで向かいの位置には公園もあります。",
-  "area": "339.73㎡",
-  "type": "売土地",
-  "location": "北海道岩内郡岩内町字大浜"
- },
- {
-  "title": "北海道岩内町相生空き地（H30-9）",
-  "link": "https://iwanai-t01402.akiya-athome.jp/bukken/detail/buy/3649",
-  "price": "相談",
-  "desc": "７６７平米の広い空き地です。住宅街にあり、公園、保育所、バス停留所のすべてが１９５ｍ圏内、食料品も取扱うドラッグストアまで約１ｋｍと、利便性の高い立地です。７６７平米の、広さ十分の空き地です。公園まで１１０ｍ、保育所　兼　町内循環バスの停留所まで１９５ｍ、食料品も取扱うドラッグストアまで約１ｋｍと、日常の生活環境が整った利便性の高い立地です。",
-  "area": "767㎡",
-  "type": "売土地",
-  "location": "北海道岩内郡岩内町字相生"
- },
- {
-  "title": "北海道岩内町御崎空き地（H30-8）",
-  "link": "https://iwanai-t01402.akiya-athome.jp/bukken/detail/buy/2940",
-  "price": "相談",
-  "desc": "日本海を臨む位置にある、潮の香りが漂う空き地です。市街地が近く、徒歩15分以内の距離に、岩内地方文化センター、木田金次郎美術館、岩内バスターミナル等があります。徒歩15分以内の距離に、岩内地方文化センター、木田金次郎美術館、岩内バスターミナル等があります。岩内の持つ自然と文化に触れながらも、市街地が近いアクセスの良さを活用できる好立地です。",
-  "area": "277.12㎡",
-  "type": "売土地",
-  "location": "北海道岩内郡岩内町字御崎"
- },
- {
-  "title": "北海道岩内町東山空き地（H30-4）",
-  "link": "https://iwanai-t01402.akiya-athome.jp/bukken/detail/buy/2871",
-  "price": "150万円",
-  "desc": "病院、ドラッグストア（食料品の取り扱いあり）、小学校等がすべて徒歩圏内にあり、車を所有しないコンパクトな生活が可能です。徒歩圏内には、病院、食料品も取り扱うドラッグストア、小学校等があります。徒歩３分以内の距離に、町内を循環するバスの停留所もあり、車を所有しないコンパクトな日常生活も可能です。",
-  "area": "239㎡",
-  "type": "売土地",
-  "location": "北海道岩内郡岩内町字東山"
- },
- {
-  "title": "北海道岩内町栄空き地（H30-3）売却",
-  "link": "https://iwanai-t01402.akiya-athome.jp/bukken/detail/buy/2804",
-  "price": "相談",
-  "desc": "町の中心市街地にある、好立地の空き地です。賃貸も可です。価格はご相談ください。町の中心市街地にあり、小樽及び札幌方面 並びに 倶知安及び寿都方面へ運行しているバスが発着するバスターミナルまで、徒歩６分以内の好立地です。\n賃貸も可です。売却・賃貸ともに、価格はご相談ください。",
-  "area": "171.49㎡",
-  "type": "売土地",
-  "location": "北海道岩内郡岩内町字栄"
- },
- {
-  "title": "北海道岩内町野束空き地（H30-2）",
-  "link": "https://iwanai-t01402.akiya-athome.jp/bukken/detail/buy/2676",
-  "price": "240万円",
-  "desc": "住宅街の中の角地ながら、アウトドア施設も近くにあり、日常生活と自然体験の両立が可能な住環境です。四季折々の自然と触れ合う、ゆったりとした日々が待っています。閑静な住宅街の中の角地です。\nスキー場やキャンプ場、温泉が近くにあります。\n平日は住宅街でゆっくり落ち着いて体を休め、休日はアウトドアと温泉でリフレッシュする生活を楽しめます。",
-  "area": "264.78㎡",
-  "type": "売土地",
-  "location": "北海道岩内郡岩内町字野束"
- },
- {
-  "title": "北海道岩内町大浜空き地（H30-1）",
-  "link": "https://iwanai-t01402.akiya-athome.jp/bukken/detail/buy/2675",
-  "price": "250万円",
-  "desc": "海が近い住宅街にある、閑静な空き地です。住宅街のため、静かに落ち着ける場所です。",
-  "area": "318.58㎡",
-  "type": "売土地",
-  "location": "北海道岩内郡岩内町字大浜"
- },
- {
-  "title": "北海道岩内町大浜戸建（売却）",
-  "link": "https://iwanai-t01402.akiya-athome.jp/bukken/detail/buy/597",
-  "price": "500万円",
-  "desc": "賃貸の場合：7万円・別棟有・倉庫付・インスペクション済み\nトイレは水洗トイレです。海の近くに立つ一軒家です。\nトイレは水洗トイレです。\nリフォーム箇所が多々ありますので、現状をご確認ください。",
-  "area": "154.54㎡247.92㎡",
-  "type": "売戸建",
-  "location": "北海道岩内郡岩内町字大浜"
- },
- {
-  "title": "北海道岩内町野束戸建（倉庫付）",
-  "link": "https://iwanai-t01402.akiya-athome.jp/bukken/detail/buy/603",
-  "price": "600万円",
-  "desc": "倉庫付き・H8年増築・H15年改修・インスペクション済み海にもスキー場にも近い、閑静な広い土地に建つ一軒家です。\n1,620平米（490坪強）の広い土地で、北海道ならではの空間を広く使ったゆったりとした生活を楽しむことができます。",
-  "area": "59.49㎡1620㎡",
-  "type": "売戸建",
-  "location": "北海道岩内郡岩内町字野束"
- },
- {
-  "title": "道南いさりび鉄道 東久根別駅/徒歩3分",
-  "link": "https://hokuto-c01236.akiya-athome.jp/bukken/detail/buy/6",
-  "price": "420万円",
-  "desc": "補修の要否:大幅な補修必要・補修の費用:入居者負担・風呂：灯油・駅0.3km・バス停0.4km・市役所3.0km・病院1.6km・消防署2.6km警察署3.4km・保育園0.2km・小学校0.6km・中学校3.6km・公営温泉8.2km・公園3.0km・スーパー0.5km・ホームセンター1.9km・コンビニ0.3km",
-  "area": "80.3㎡140.16㎡",
-  "type": "売戸建",
-  "location": "北海道北斗市久根別１丁目"
+  "location": "北海道磯谷郡蘭越町港町",
+  "locationId": "01"
  }
 ]

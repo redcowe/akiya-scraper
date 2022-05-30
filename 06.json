@@ -1,0 +1,102 @@
+[
+ {
+  "title": "登録物件１",
+  "link": "https://kaneyama-t06361.akiya-athome.jp/bukken/detail/buy/19885",
+  "price": "980万円",
+  "desc": "1LDK+ロフト付きの物件です",
+  "area": "173.06㎡1161.61㎡",
+  "type": "売戸建",
+  "location": "山形県最上郡金山町大字中田",
+  "locationId": "06"
+ },
+ {
+  "title": "ＪＲ米坂線 羽前椿駅/車6分",
+  "link": "https://iide-t06403.akiya-athome.jp/bukken/detail/buy/18211",
+  "price": "957万円",
+  "desc": "静かな環境、太陽光発電あり",
+  "area": "123.84㎡",
+  "type": "売戸建",
+  "location": "山形県西置賜郡飯豊町大字添川",
+  "locationId": "06"
+ },
+ {
+  "title": "ＪＲ米坂線 萩生駅/車7分",
+  "link": "https://iide-t06403.akiya-athome.jp/bukken/detail/buy/17429",
+  "price": "300万円",
+  "desc": "作業小屋付",
+  "area": "",
+  "type": "売戸建",
+  "location": "山形県西置賜郡飯豊町大字添川",
+  "locationId": "06"
+ },
+ {
+  "title": "売戸建住宅【RA3-97】",
+  "link": "https://asahi-t06323.akiya-athome.jp/bukken/detail/buy/17263",
+  "price": "380万円",
+  "desc": "地区名：宮宿前田沢\n価格：応相談\n設備：水洗洋式トイレ、風呂エコキュート、駐車場有\n附帯物：小屋朝日町役場 1.2km、朝日町立病院 1.4km、あさひ保育園 1.2km、宮宿小学校 0.6km、朝日中学校 0.5km、フレッシュストアヒグチ 1.2km",
+  "area": "133.29㎡652.08㎡",
+  "type": "売戸建",
+  "location": "山形県西村山郡朝日町大字宮宿",
+  "locationId": "06"
+ },
+ {
+  "title": "売戸建住宅【RA3-95】",
+  "link": "https://asahi-t06323.akiya-athome.jp/bukken/detail/buy/16845",
+  "price": "550万円",
+  "desc": "地区名：宮宿大町\n価格：応相談\n設備：水洗洋式トイレ、風呂灯油、エアコン、車庫あり朝日町役場 0.5km、朝日町立病院 0.7km、あさひ保育園 0.6km、宮宿小学校 0.2km、朝日中学校 1.0km、フレッシュストアヒグチ 0.5km",
+  "area": "465.71㎡",
+  "type": "売戸建",
+  "location": "山形県西村山郡朝日町大字宮宿",
+  "locationId": "06"
+ },
+ {
+  "title": "山鉄フラワー長井線 あやめ公園駅/徒歩8分",
+  "link": "https://nagai-c06209.akiya-athome.jp/bukken/detail/buy/16066",
+  "price": "390万円",
+  "desc": "N/A",
+  "area": "151.45㎡274.6㎡",
+  "type": "売戸建",
+  "location": "山形県長井市幸町",
+  "locationId": "06"
+ },
+ {
+  "title": "売戸建住宅【RA2-94】",
+  "link": "https://asahi-t06323.akiya-athome.jp/bukken/detail/buy/14959",
+  "price": "相談",
+  "desc": "地区名：大谷\n価格応相談\n設備：洋式水洗トイレ、風呂灯油朝日町役場 6.9km、朝日町立病院 7.1km、あさひ保育園 6.9km、大谷小学校 0.7km、朝日中学校 5.8km、フレッシュストアヒグチ 6.9km",
+  "area": "661㎡",
+  "type": "売戸建",
+  "location": "山形県西村山郡朝日町大字大谷",
+  "locationId": "06"
+ },
+ {
+  "title": "ＪＲ米坂線 羽前椿駅/車3分",
+  "link": "https://iide-t06403.akiya-athome.jp/bukken/detail/buy/11649",
+  "price": "220万円",
+  "desc": "町の中心部に近い！価格変更380万→220万\n",
+  "area": "122.96㎡1049.06㎡",
+  "type": "売戸建",
+  "location": "山形県西置賜郡飯豊町大字椿",
+  "locationId": "06"
+ },
+ {
+  "title": "ＪＲ米坂線 手ノ子駅/車36分",
+  "link": "https://iide-t06403.akiya-athome.jp/bukken/detail/buy/11170",
+  "price": "200万円",
+  "desc": "希望により、田・畑・山有！",
+  "area": "199.51㎡",
+  "type": "売戸建",
+  "location": "山形県西置賜郡飯豊町大字上原",
+  "locationId": "06"
+ },
+ {
+  "title": "売戸建住宅【A28-46】",
+  "link": "https://asahi-t06323.akiya-athome.jp/bukken/detail/buy/11154",
+  "price": "200万円",
+  "desc": "地区名：大沼朝日町役場：7.5km、朝日町立病院：7.2km、あさひ保育園：7.7km、大谷小学校：7.6km、朝日中学校：8.7km、フレッシュストアヒグチ：7.5km",
+  "area": "142.14㎡1987.56㎡",
+  "type": "売戸建",
+  "location": "山形県西村山郡朝日町大字大沼",
+  "locationId": "06"
+ }
+]
