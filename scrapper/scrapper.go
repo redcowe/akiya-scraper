@@ -12,7 +12,7 @@ import (
 )
 
 //helper function for converting empty descriptions into proper format
-func descEmptyConvert(s *string) string {
+func convertEmptyDesc(s *string) string {
 	if *s == "" {
 		*s = "N/A"
 	}
@@ -28,13 +28,10 @@ func writeFile(data []akiya.Akiya, id string) {
 	_ = ioutil.WriteFile(id+".json", file, 0644)
 }
 
-func ScrapeAkiyas(url string, locationID string) {
+func ScrapeAkiyas(locationID string) {
 
 	id := locationID
-	//Location and URL that can be edited
-
-	//https://www.akiya-athome.jp/buy/38/?br_kbn=buy&pref_cd=38&page=1&search_sort=kokai_date&item_count=50
-	//https://www.akiya-athome.jp/buy/" + locationID + "/" + "?br_kbn=buy&pref_cd=" + locationID + "&page=1&search_sort=kokai_date&item_count=100
+	url := "https://www.akiya-athome.jp/buy/" + id + "/" + "?br_kbn=buy&pref_cd=" + id + "&page=1&search_sort=kokai_date&item_count=500"
 
 	akiyaSlice := []akiya.Akiya{}
 	c := colly.NewCollector(
@@ -56,7 +53,7 @@ func ScrapeAkiyas(url string, locationID string) {
 			Title:      strings.TrimSpace(akiyaHTML.Find("div.propetyTitle").Find("a").Text()),
 			Link:       akiyaHTML.Find("div.propetyTitle").Find("a").AttrOr("href", "N/A"),
 			Price:      akiyaHTML.Find("dl.price").Find("dd").Text(),
-			Desc:       descEmptyConvert(&desc),
+			Desc:       convertEmptyDesc(&desc),
 			Area:       akiyaHTML.Find("ul.flex").Find("li").Find("dl").Find("dd:contains(㎡)").Text(),
 			Type:       akiyaHTML.Find("div.objectTitle.cf").Find("span.objectCategory.objectCategory_buy").Text(),
 			Location:   akiyaHTML.Find("ul.all").Find("li").Find("dt:contains(所在地)").Next().Text(),

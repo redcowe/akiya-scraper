@@ -1,0 +1,1022 @@
+[
+ {
+  "title": "空地No6",
+  "link": "https://ryugasaki-c08208.akiya-athome.jp/bukken/detail/buy/20335",
+  "price": "300万円",
+  "desc": "N/A",
+  "area": "89.75㎡",
+  "type": "売土地",
+  "location": "茨城県龍ケ崎市寺後",
+  "locationId": "08"
+ },
+ {
+  "title": "売戸建住宅【026】",
+  "link": "https://shimotsuma-c08210.akiya-athome.jp/bukken/detail/buy/20325",
+  "price": "600万円",
+  "desc": "N/A",
+  "area": "163.37㎡781.42㎡",
+  "type": "売戸建",
+  "location": "茨城県下妻市若柳丙",
+  "locationId": "08"
+ },
+ {
+  "title": "常総市水海道諏訪町【戸建住宅/売買033】",
+  "link": "https://joso-c08211.akiya-athome.jp/bukken/detail/buy/20035",
+  "price": "1,100万円",
+  "desc": "駅から程近い、市街地にある住宅です。市街化区域のため、住宅以外の活用も想定されます。",
+  "area": "102.26㎡389.5㎡",
+  "type": "売戸建",
+  "location": "茨城県常総市水海道諏訪町",
+  "locationId": "08"
+ },
+ {
+  "title": "常総市中妻町【戸建住宅/売買031】",
+  "link": "https://joso-c08211.akiya-athome.jp/bukken/detail/buy/20034",
+  "price": "980万円",
+  "desc": "駅から程近い、閑静な住宅地内の住宅です。市街化区域のため、住宅以外の活用も想定されます。",
+  "area": "103㎡384.69㎡",
+  "type": "売戸建",
+  "location": "茨城県常総市中妻町",
+  "locationId": "08"
+ },
+ {
+  "title": "常総市中妻町【土地/売買029】",
+  "link": "https://joso-c08211.akiya-athome.jp/bukken/detail/buy/20030",
+  "price": "250万円",
+  "desc": "駅から程近い、閑静な住宅地内の土地です。接道要件を満たすため測量・分筆が必要で、建物の建築に際しては別途費用が発生する可能性があります。",
+  "area": "133.31㎡",
+  "type": "売土地",
+  "location": "茨城県常総市中妻町",
+  "locationId": "08"
+ },
+ {
+  "title": "常総市豊岡町【戸建住宅/売買035】",
+  "link": "https://joso-c08211.akiya-athome.jp/bukken/detail/buy/19906",
+  "price": "230万円",
+  "desc": "閑静な住宅地内の住宅です。市街化調整区域ですが、区域指定地域内のため、第三者の住宅として利用が許容されます。",
+  "area": "121.08㎡167.36㎡",
+  "type": "売戸建",
+  "location": "茨城県常総市豊岡町",
+  "locationId": "08"
+ },
+ {
+  "title": "ＪＲ常磐線 磯原駅/徒歩3分",
+  "link": "https://kitaibaraki-c08215.akiya-athome.jp/bukken/detail/buy/15935",
+  "price": "350万円",
+  "desc": "磯原駅徒歩3分。図書館や食事処、スーパーも近くて便利な好立地です。",
+  "area": "170.24㎡",
+  "type": "売土地",
+  "location": "茨城県北茨城市磯原町本町１丁目",
+  "locationId": "08"
+ },
+ {
+  "title": "茨城県笠間市　物件登録番号空地33",
+  "link": "https://kasama-c08216.akiya-athome.jp/bukken/detail/buy/19889",
+  "price": "550万円",
+  "desc": "N/A",
+  "area": "335.54㎡",
+  "type": "売土地",
+  "location": "茨城県笠間市石井",
+  "locationId": "08"
+ },
+ {
+  "title": "茨城県笠間市　物件登録番号191",
+  "link": "https://kasama-c08216.akiya-athome.jp/bukken/detail/buy/19650",
+  "price": "3,500万円",
+  "desc": "N/A",
+  "area": "127.28㎡333.97㎡",
+  "type": "売戸建",
+  "location": "茨城県笠間市東平１丁目",
+  "locationId": "08"
+ },
+ {
+  "title": "つくばみらい市狸穴 戸建",
+  "link": "https://tsukubamirai-c08235.akiya-athome.jp/bukken/detail/buy/17580",
+  "price": "550万円",
+  "desc": "N/A",
+  "area": "56.18㎡154.74㎡",
+  "type": "売戸建",
+  "location": "茨城県つくばみらい市狸穴",
+  "locationId": "08"
+ },
+ {
+  "title": "茨城県稲敷郡阿見町南平台１丁目",
+  "link": "https://ami-t08443.akiya-athome.jp/bukken/detail/buy/19167",
+  "price": "1,200万円",
+  "desc": "N/A",
+  "area": "96.79㎡203.42㎡",
+  "type": "売戸建",
+  "location": "茨城県稲敷郡阿見町南平台１丁目",
+  "locationId": "08"
+ },
+ {
+  "title": "常総市花島町【戸建住宅/売買026】",
+  "link": "https://joso-c08211.akiya-athome.jp/bukken/detail/buy/19333",
+  "price": "1,350万円",
+  "desc": "工業団地にほど近い、のどかな田園地域にある住宅です。",
+  "area": "147.36㎡1225.12㎡",
+  "type": "売戸建",
+  "location": "茨城県常総市花島町",
+  "locationId": "08"
+ },
+ {
+  "title": "売戸建住宅【14】",
+  "link": "https://takahagi-c08214.akiya-athome.jp/bukken/detail/buy/19256",
+  "price": "420万円",
+  "desc": "補修多少必要(購入者負担)\n耐震化：旧耐震基準",
+  "area": "91.73㎡276.22㎡",
+  "type": "売戸建",
+  "location": "茨城県高萩市大字高萩",
+  "locationId": "08"
+ },
+ {
+  "title": "売戸建住宅【12】",
+  "link": "https://takahagi-c08214.akiya-athome.jp/bukken/detail/buy/19254",
+  "price": "300万円",
+  "desc": "木造スレート葺2階建、常磐線「高萩駅」まで徒歩10分\n物件へ通じる道路は、近隣の方と共有名義となる。\n補修多少必要(購入者負担)\n耐震化：旧耐震基準",
+  "area": "124.06㎡265.05㎡",
+  "type": "売戸建",
+  "location": "茨城県高萩市大字安良川",
+  "locationId": "08"
+ },
+ {
+  "title": "売戸建住宅【19】",
+  "link": "https://takahagi-c08214.akiya-athome.jp/bukken/detail/buy/19260",
+  "price": "400万円",
+  "desc": "木造スレート葺2階建　小・中学校近く\n補修多少必要(購入者負担)\n耐震化：旧耐震基準",
+  "area": "111.47㎡225.62㎡",
+  "type": "売戸建",
+  "location": "茨城県高萩市大字島名",
+  "locationId": "08"
+ },
+ {
+  "title": "売戸建住宅【17】",
+  "link": "https://takahagi-c08214.akiya-athome.jp/bukken/detail/buy/19259",
+  "price": "537.7万円",
+  "desc": "木造スレート葺2階建　閑静な住宅街\n補修必要(一部売主負担)　※現況取引は、250万円\n耐震化：旧耐震基準",
+  "area": "91.85㎡296.28㎡",
+  "type": "売戸建",
+  "location": "茨城県高萩市大字島名",
+  "locationId": "08"
+ },
+ {
+  "title": "売戸建住宅【15】",
+  "link": "https://takahagi-c08214.akiya-athome.jp/bukken/detail/buy/19257",
+  "price": "400万円",
+  "desc": "南向き 閑静な住宅街\n補修多少必要(購入者負担)\n耐震化：旧耐震基準\n昭和61年に改修済",
+  "area": "135.27㎡341.14㎡",
+  "type": "売戸建",
+  "location": "茨城県高萩市大字高萩",
+  "locationId": "08"
+ },
+ {
+  "title": "売戸建住宅【13】",
+  "link": "https://takahagi-c08214.akiya-athome.jp/bukken/detail/buy/19255",
+  "price": "400万円",
+  "desc": "木造スレート葺2階建(5DK)、小・中学校近く\n補修多少必要(購入者負担)\n耐震化：旧耐震基準",
+  "area": "115.92㎡212.59㎡",
+  "type": "売戸建",
+  "location": "茨城県高萩市大字高萩",
+  "locationId": "08"
+ },
+ {
+  "title": "物件No.145",
+  "link": "https://hitachiota-c08212.akiya-athome.jp/bukken/detail/buy/19265",
+  "price": "1,680万円",
+  "desc": "N/A",
+  "area": "150.11㎡490.43㎡",
+  "type": "売戸建",
+  "location": "茨城県常陸太田市小目町",
+  "locationId": "08"
+ },
+ {
+  "title": "売家【149】",
+  "link": "https://tone-t08564.akiya-athome.jp/bukken/detail/buy/19231",
+  "price": "500万円",
+  "desc": "N/A",
+  "area": "98.07㎡157.98㎡",
+  "type": "売戸建",
+  "location": "茨城県北相馬郡利根町大字早尾",
+  "locationId": "08"
+ },
+ {
+  "title": "ＪＲ常磐線 石岡駅",
+  "link": "https://ishioka-c08205.akiya-athome.jp/bukken/detail/buy/19158",
+  "price": "880万円",
+  "desc": "N/A",
+  "area": "86.03㎡314.35㎡",
+  "type": "売戸建",
+  "location": "茨城県石岡市北府中１丁目",
+  "locationId": "08"
+ },
+ {
+  "title": "物件No.153",
+  "link": "https://hitachiota-c08212.akiya-athome.jp/bukken/detail/buy/19117",
+  "price": "680万円",
+  "desc": "N/A",
+  "area": "118.77㎡817.8㎡",
+  "type": "売戸建",
+  "location": "茨城県常陸太田市栄町",
+  "locationId": "08"
+ },
+ {
+  "title": "茨城県笠間市　物件登録番号空地31",
+  "link": "https://kasama-c08216.akiya-athome.jp/bukken/detail/buy/19059",
+  "price": "1,500万円",
+  "desc": "N/A",
+  "area": "1354.35㎡",
+  "type": "売土地",
+  "location": "茨城県笠間市下郷",
+  "locationId": "08"
+ },
+ {
+  "title": "売戸建住宅【１６】",
+  "link": "https://hitachiomiya-c08225.akiya-athome.jp/bukken/detail/buy/18998",
+  "price": "380万円",
+  "desc": "空き家バンク制度により空き家を購入していただきますと、改修に要する経費を補助します。補助率：1/2以内（補助金上限額50万円）山方支所5.3kｍ・東消防署9.0kｍ・大串医院6.2kｍ・山方南小学校3.4kｍ・山方中学校5.1kｍ・野上保育園3.2kｍ・エコス山方店6.0kｍ",
+  "area": "149.84㎡",
+  "type": "売戸建",
+  "location": "茨城県常陸大宮市長田",
+  "locationId": "08"
+ },
+ {
+  "title": "売戸建住宅【41】【交渉中】",
+  "link": "https://tsukuba-c08220.akiya-athome.jp/bukken/detail/buy/16676",
+  "price": "690万円",
+  "desc": "N/A",
+  "area": "51.34㎡392.93㎡",
+  "type": "売戸建",
+  "location": "茨城県つくば市漆所",
+  "locationId": "08"
+ },
+ {
+  "title": "常総市水海道天満町【戸建住宅／売買018】",
+  "link": "https://joso-c08211.akiya-athome.jp/bukken/detail/buy/18385",
+  "price": "880万円",
+  "desc": "駅から程近い、閑静な住宅地です。",
+  "area": "76.44㎡210.3㎡",
+  "type": "売戸建",
+  "location": "茨城県常総市水海道天満町",
+  "locationId": "08"
+ },
+ {
+  "title": "茨城県笠間市　物件登録番号空地28",
+  "link": "https://kasama-c08216.akiya-athome.jp/bukken/detail/buy/18283",
+  "price": "500万円",
+  "desc": "N/A",
+  "area": "270.11㎡",
+  "type": "売土地",
+  "location": "茨城県笠間市八雲２丁目",
+  "locationId": "08"
+ },
+ {
+  "title": "売戸建住宅【019】",
+  "link": "https://shimotsuma-c08210.akiya-athome.jp/bukken/detail/buy/18057",
+  "price": "400万円",
+  "desc": "N/A",
+  "area": "83.62㎡161.53㎡",
+  "type": "売戸建",
+  "location": "茨城県下妻市長塚",
+  "locationId": "08"
+ },
+ {
+  "title": "売地【60】",
+  "link": "https://tone-t08564.akiya-athome.jp/bukken/detail/buy/18054",
+  "price": "158万円",
+  "desc": "N/A",
+  "area": "187.89㎡",
+  "type": "売土地",
+  "location": "茨城県北相馬郡利根町大字布川",
+  "locationId": "08"
+ },
+ {
+  "title": "茨城県笠間市　物件登録番号空地29",
+  "link": "https://kasama-c08216.akiya-athome.jp/bukken/detail/buy/18015",
+  "price": "235万円",
+  "desc": "N/A",
+  "area": "772.96㎡",
+  "type": "売土地",
+  "location": "茨城県笠間市安居",
+  "locationId": "08"
+ },
+ {
+  "title": "売地【58】",
+  "link": "https://tone-t08564.akiya-athome.jp/bukken/detail/buy/17968",
+  "price": "150万円",
+  "desc": "N/A",
+  "area": "202.01㎡",
+  "type": "売土地",
+  "location": "茨城県北相馬郡利根町大字布川",
+  "locationId": "08"
+ },
+ {
+  "title": "売戸建住宅【018】",
+  "link": "https://shimotsuma-c08210.akiya-athome.jp/bukken/detail/buy/17520",
+  "price": "640万円",
+  "desc": "N/A",
+  "area": "125.02㎡537.65㎡",
+  "type": "売戸建",
+  "location": "茨城県下妻市下妻丁",
+  "locationId": "08"
+ },
+ {
+  "title": "茨城県笠間市　物件登録番号179",
+  "link": "https://kasama-c08216.akiya-athome.jp/bukken/detail/buy/17861",
+  "price": "980万円",
+  "desc": "N/A",
+  "area": "650㎡138.38㎡",
+  "type": "売戸建",
+  "location": "茨城県笠間市稲田",
+  "locationId": "08"
+ },
+ {
+  "title": "茨城県笠間市　物件登録番号空地27",
+  "link": "https://kasama-c08216.akiya-athome.jp/bukken/detail/buy/17595",
+  "price": "400万円",
+  "desc": "N/A",
+  "area": "331.02㎡",
+  "type": "売土地",
+  "location": "茨城県笠間市石井",
+  "locationId": "08"
+ },
+ {
+  "title": "売戸建住宅【１２】",
+  "link": "https://hitachiomiya-c08225.akiya-athome.jp/bukken/detail/buy/17524",
+  "price": "450万円",
+  "desc": "空き家バンク制度により空き家を購入していただきますと、改修に要する経費を補助します。補助率：1/2以内（補助金上限額50万円）常陸大宮市役所3.0kｍ・東消防署5.0kｍ・志村大宮病院3.0kｍ・上野小学校1.5kｍ・大宮第二中学校2.0kｍ・みのり保育園1.5kｍ・ヨークベニマル1.7kｍ",
+  "area": "109.19㎡",
+  "type": "売戸建",
+  "location": "茨城県常陸大宮市宇留野",
+  "locationId": "08"
+ },
+ {
+  "title": "物件No.141",
+  "link": "https://hitachiota-c08212.akiya-athome.jp/bukken/detail/buy/17419",
+  "price": "300万円",
+  "desc": "N/A",
+  "area": "66.41㎡398.33㎡",
+  "type": "売戸建",
+  "location": "茨城県常陸太田市大中町",
+  "locationId": "08"
+ },
+ {
+  "title": "ＪＲ常磐線 石岡駅",
+  "link": "https://ishioka-c08205.akiya-athome.jp/bukken/detail/buy/17412",
+  "price": "2,000万円",
+  "desc": "N/A",
+  "area": "66.25㎡1729.08㎡",
+  "type": "売戸建",
+  "location": "茨城県石岡市片岡",
+  "locationId": "08"
+ },
+ {
+  "title": "売土地【80】",
+  "link": "https://ushiku-c08219.akiya-athome.jp/bukken/detail/buy/15830",
+  "price": "300万円",
+  "desc": "閑静な住宅街にある南向きの更地です。",
+  "area": "138㎡",
+  "type": "売土地",
+  "location": "茨城県牛久市岡見町",
+  "locationId": "08"
+ },
+ {
+  "title": "空地No1",
+  "link": "https://ryugasaki-c08208.akiya-athome.jp/bukken/detail/buy/17287",
+  "price": "1,200万円",
+  "desc": "N/A",
+  "area": "388㎡",
+  "type": "売土地",
+  "location": "茨城県龍ケ崎市若柴町",
+  "locationId": "08"
+ },
+ {
+  "title": "物件No144",
+  "link": "https://hitachiota-c08212.akiya-athome.jp/bukken/detail/buy/17115",
+  "price": "630万円",
+  "desc": "N/A",
+  "area": "86.75㎡242.46㎡",
+  "type": "売戸建",
+  "location": "茨城県常陸太田市大森町",
+  "locationId": "08"
+ },
+ {
+  "title": "売土地【90】",
+  "link": "https://ushiku-c08219.akiya-athome.jp/bukken/detail/buy/16943",
+  "price": "200万円",
+  "desc": "閑静な住宅街にある更地です。",
+  "area": "198.87㎡",
+  "type": "売土地",
+  "location": "茨城県牛久市小坂町",
+  "locationId": "08"
+ },
+ {
+  "title": "売戸建住宅【25】",
+  "link": "https://chikusei-c08227.akiya-athome.jp/bukken/detail/buy/16836",
+  "price": "750万円",
+  "desc": "多少の補修が必要",
+  "area": "67.88㎡317.35㎡",
+  "type": "売戸建",
+  "location": "茨城県筑西市岡芹",
+  "locationId": "08"
+ },
+ {
+  "title": "物件No.129",
+  "link": "https://hitachiota-c08212.akiya-athome.jp/bukken/detail/buy/16663",
+  "price": "1,500万円",
+  "desc": "N/A",
+  "area": "131.7㎡883.55㎡",
+  "type": "売戸建",
+  "location": "茨城県常陸太田市馬場町",
+  "locationId": "08"
+ },
+ {
+  "title": "物件No133",
+  "link": "https://hitachiota-c08212.akiya-athome.jp/bukken/detail/buy/16584",
+  "price": "1,900万円",
+  "desc": "N/A",
+  "area": "142.72㎡562.77㎡",
+  "type": "売戸建",
+  "location": "茨城県常陸太田市山下町",
+  "locationId": "08"
+ },
+ {
+  "title": "茨城県笠間市　物件登録番号170",
+  "link": "https://kasama-c08216.akiya-athome.jp/bukken/detail/buy/16141",
+  "price": "530万円",
+  "desc": "N/A",
+  "area": "86.95㎡482㎡",
+  "type": "売戸建",
+  "location": "茨城県笠間市鯉淵",
+  "locationId": "08"
+ },
+ {
+  "title": "茨城県笠間市　物件登録番号空地25",
+  "link": "https://kasama-c08216.akiya-athome.jp/bukken/detail/buy/16116",
+  "price": "360万円",
+  "desc": "N/A",
+  "area": "198.87㎡",
+  "type": "売土地",
+  "location": "茨城県笠間市平町",
+  "locationId": "08"
+ },
+ {
+  "title": "茨城県笠間市　物件登録番号172",
+  "link": "https://kasama-c08216.akiya-athome.jp/bukken/detail/buy/16192",
+  "price": "1,000万円",
+  "desc": "N/A",
+  "area": "137.01㎡247.38㎡",
+  "type": "売戸建",
+  "location": "茨城県笠間市大田町",
+  "locationId": "08"
+ },
+ {
+  "title": "売土地【68】",
+  "link": "https://ushiku-c08219.akiya-athome.jp/bukken/detail/buy/16354",
+  "price": "1,180万円",
+  "desc": "100坪以上の更地物件です。",
+  "area": "446.23㎡",
+  "type": "売土地",
+  "location": "茨城県牛久市南５丁目",
+  "locationId": "08"
+ },
+ {
+  "title": "売戸建住宅【72】",
+  "link": "https://ushiku-c08219.akiya-athome.jp/bukken/detail/buy/16351",
+  "price": "280万円",
+  "desc": "閑静な住宅街にある物件です。更地渡しとなります。",
+  "area": "66.49㎡237㎡",
+  "type": "売戸建",
+  "location": "茨城県牛久市岡見町",
+  "locationId": "08"
+ },
+ {
+  "title": "売土地【88】",
+  "link": "https://ushiku-c08219.akiya-athome.jp/bukken/detail/buy/16344",
+  "price": "425万円",
+  "desc": "閑静な住宅街にある更地です。幅広な道路沿いの角地です。",
+  "area": "401.04㎡",
+  "type": "売土地",
+  "location": "茨城県牛久市小坂町",
+  "locationId": "08"
+ },
+ {
+  "title": "売土地【79】",
+  "link": "https://ushiku-c08219.akiya-athome.jp/bukken/detail/buy/16343",
+  "price": "230万円",
+  "desc": "閑静な住宅街にある更地です。",
+  "area": "198.02㎡",
+  "type": "売土地",
+  "location": "茨城県牛久市小坂町",
+  "locationId": "08"
+ },
+ {
+  "title": "物件No.135",
+  "link": "https://hitachiota-c08212.akiya-athome.jp/bukken/detail/buy/16080",
+  "price": "560万円",
+  "desc": "N/A",
+  "area": "140.74㎡788.62㎡",
+  "type": "売戸建",
+  "location": "茨城県常陸太田市小目町",
+  "locationId": "08"
+ },
+ {
+  "title": "売戸建住宅【39】",
+  "link": "https://tsukuba-c08220.akiya-athome.jp/bukken/detail/buy/16088",
+  "price": "850万円",
+  "desc": "N/A",
+  "area": "139.67㎡978.82㎡",
+  "type": "売戸建",
+  "location": "茨城県つくば市上大島",
+  "locationId": "08"
+ },
+ {
+  "title": "茨城県笠間市　物件登録番号166",
+  "link": "https://kasama-c08216.akiya-athome.jp/bukken/detail/buy/15793",
+  "price": "650万円",
+  "desc": "N/A",
+  "area": "106.1㎡226.07㎡",
+  "type": "売戸建",
+  "location": "茨城県笠間市下市毛",
+  "locationId": "08"
+ },
+ {
+  "title": "物件No.88",
+  "link": "https://hitachiota-c08212.akiya-athome.jp/bukken/detail/buy/15358",
+  "price": "120万円",
+  "desc": "N/A",
+  "area": "150.23㎡202.78㎡",
+  "type": "売戸建",
+  "location": "茨城県常陸太田市天下野町",
+  "locationId": "08"
+ },
+ {
+  "title": "物件No.85",
+  "link": "https://hitachiota-c08212.akiya-athome.jp/bukken/detail/buy/15287",
+  "price": "800万円",
+  "desc": "N/A",
+  "area": "217.75㎡1183㎡",
+  "type": "売戸建",
+  "location": "茨城県常陸太田市上深荻町",
+  "locationId": "08"
+ },
+ {
+  "title": "売地【53】",
+  "link": "https://tone-t08564.akiya-athome.jp/bukken/detail/buy/15096",
+  "price": "100万円",
+  "desc": "N/A",
+  "area": "182.16㎡",
+  "type": "売土地",
+  "location": "茨城県北相馬郡利根町大字早尾",
+  "locationId": "08"
+ },
+ {
+  "title": "茨城県笠間市　物件登録番号空地19",
+  "link": "https://kasama-c08216.akiya-athome.jp/bukken/detail/buy/15012",
+  "price": "100万円",
+  "desc": "N/A",
+  "area": "149.51㎡",
+  "type": "売土地",
+  "location": "茨城県笠間市旭町",
+  "locationId": "08"
+ },
+ {
+  "title": "売戸建住宅【35】",
+  "link": "https://tsukuba-c08220.akiya-athome.jp/bukken/detail/buy/15010",
+  "price": "500万円",
+  "desc": "建物状況調査（ホームインスペクション）報告書付き\n多少の補修必要（入居者負担）\n利用状況使用中（※入居時期要相談）",
+  "area": "170.69㎡78.66㎡",
+  "type": "売戸建",
+  "location": "茨城県つくば市森の里",
+  "locationId": "08"
+ },
+ {
+  "title": "売土地【38】",
+  "link": "https://ushiku-c08219.akiya-athome.jp/bukken/detail/buy/14987",
+  "price": "350万円",
+  "desc": "国道沿いにある、現況更地物件です。",
+  "area": "700.23㎡",
+  "type": "売土地",
+  "location": "茨城県牛久市小坂町",
+  "locationId": "08"
+ },
+ {
+  "title": "売戸建住宅【63】",
+  "link": "https://ushiku-c08219.akiya-athome.jp/bukken/detail/buy/14991",
+  "price": "650万円",
+  "desc": "駐車スペース2台の物件です。",
+  "area": "115.62㎡161.68㎡",
+  "type": "売戸建",
+  "location": "茨城県牛久市下根町",
+  "locationId": "08"
+ },
+ {
+  "title": "小美玉市江戸　物件登録番号200002",
+  "link": "https://omitama-c08236.akiya-athome.jp/bukken/detail/buy/14799",
+  "price": "450万円",
+  "desc": "N/A",
+  "area": "86.11㎡182.47㎡",
+  "type": "売戸建",
+  "location": "茨城県小美玉市江戸",
+  "locationId": "08"
+ },
+ {
+  "title": "茨城県笠間市　物件登録番号空地14",
+  "link": "https://kasama-c08216.akiya-athome.jp/bukken/detail/buy/14482",
+  "price": "120万円",
+  "desc": "N/A",
+  "area": "120.35㎡",
+  "type": "売土地",
+  "location": "茨城県笠間市下郷",
+  "locationId": "08"
+ },
+ {
+  "title": "茨城県笠間市　物件登録番号空地20",
+  "link": "https://kasama-c08216.akiya-athome.jp/bukken/detail/buy/13825",
+  "price": "760万円",
+  "desc": "N/A",
+  "area": "802.9㎡",
+  "type": "売土地",
+  "location": "茨城県笠間市仁古田",
+  "locationId": "08"
+ },
+ {
+  "title": "売戸建住宅【24】",
+  "link": "https://chikusei-c08227.akiya-athome.jp/bukken/detail/buy/13215",
+  "price": "1,100万円",
+  "desc": "N/A",
+  "area": "77.01㎡217.79㎡",
+  "type": "売戸建",
+  "location": "茨城県筑西市下川島",
+  "locationId": "08"
+ },
+ {
+  "title": "売地【35】",
+  "link": "https://tone-t08564.akiya-athome.jp/bukken/detail/buy/12501",
+  "price": "850万円",
+  "desc": "N/A",
+  "area": "185.8㎡",
+  "type": "売土地",
+  "location": "茨城県北相馬郡利根町大字羽根野",
+  "locationId": "08"
+ },
+ {
+  "title": "売地【55】",
+  "link": "https://tone-t08564.akiya-athome.jp/bukken/detail/buy/11693",
+  "price": "300万円",
+  "desc": "N/A",
+  "area": "174.27㎡",
+  "type": "売土地",
+  "location": "茨城県北相馬郡利根町大字早尾",
+  "locationId": "08"
+ },
+ {
+  "title": "売地【41】",
+  "link": "https://tone-t08564.akiya-athome.jp/bukken/detail/buy/11694",
+  "price": "265万円",
+  "desc": "N/A",
+  "area": "292.03㎡",
+  "type": "売土地",
+  "location": "茨城県北相馬郡利根町大字羽根野",
+  "locationId": "08"
+ },
+ {
+  "title": "茨城県笠間市　物件登録番号147",
+  "link": "https://kasama-c08216.akiya-athome.jp/bukken/detail/buy/11646",
+  "price": "800万円",
+  "desc": "N/A",
+  "area": "106.81㎡553.25㎡",
+  "type": "売戸建",
+  "location": "茨城県笠間市下市毛",
+  "locationId": "08"
+ },
+ {
+  "title": "茨城県笠間市　物件登録番号空地12",
+  "link": "https://kasama-c08216.akiya-athome.jp/bukken/detail/buy/9566",
+  "price": "350万円",
+  "desc": "N/A",
+  "area": "318.5㎡",
+  "type": "売土地",
+  "location": "茨城県笠間市泉",
+  "locationId": "08"
+ },
+ {
+  "title": "物件第48号",
+  "link": "https://kitaibaraki-c08215.akiya-athome.jp/bukken/detail/buy/8738",
+  "price": "150万円",
+  "desc": "住宅地の北側には里山が広がっています。\n中郷工業団地が近いところにあり、通勤もしやすい場所です。",
+  "area": "167㎡",
+  "type": "売土地",
+  "location": "茨城県北茨城市中郷町日棚",
+  "locationId": "08"
+ },
+ {
+  "title": "物件第47号",
+  "link": "https://kitaibaraki-c08215.akiya-athome.jp/bukken/detail/buy/8737",
+  "price": "180万円",
+  "desc": "市街地からは少し離れた場所にある土地です。\n静かに暮らしたい方におすすめの場所です。",
+  "area": "252.16㎡",
+  "type": "売土地",
+  "location": "茨城県北茨城市中郷町日棚",
+  "locationId": "08"
+ },
+ {
+  "title": "小美玉市上玉里　物件登録番号190002",
+  "link": "https://omitama-c08236.akiya-athome.jp/bukken/detail/buy/7158",
+  "price": "780万円",
+  "desc": "N/A",
+  "area": "49.57㎡907.84㎡",
+  "type": "売戸建",
+  "location": "茨城県小美玉市上玉里",
+  "locationId": "08"
+ },
+ {
+  "title": "物件第44号",
+  "link": "https://kitaibaraki-c08215.akiya-athome.jp/bukken/detail/buy/8063",
+  "price": "850万円",
+  "desc": "内装や風呂・トイレ等、全面的にリフォームがされている物件です。閑静な住宅街にあり、中郷町の商業施設が密集している地域にも近いです。",
+  "area": "79.31㎡213.96㎡",
+  "type": "売戸建",
+  "location": "茨城県北茨城市中郷町汐見ケ丘９丁目",
+  "locationId": "08"
+ },
+ {
+  "title": "茨城県笠間市　物件登録番号118",
+  "link": "https://kasama-c08216.akiya-athome.jp/bukken/detail/buy/7905",
+  "price": "900万円",
+  "desc": "N/A",
+  "area": "76.02㎡451.71㎡",
+  "type": "売戸建",
+  "location": "茨城県笠間市笠間",
+  "locationId": "08"
+ },
+ {
+  "title": "物件第42号",
+  "link": "https://kitaibaraki-c08215.akiya-athome.jp/bukken/detail/buy/7786",
+  "price": "600万円",
+  "desc": "高台の住宅地にある物件です。国道６号にも近く、通勤・通学に便利な場所です。\n庭も広く、整備すれば家庭菜園も可能です。",
+  "area": "82.61㎡489.12㎡",
+  "type": "売戸建",
+  "location": "茨城県北茨城市平潟町",
+  "locationId": "08"
+ },
+ {
+  "title": "茨城県笠間市　物件登録番号空地-7",
+  "link": "https://kasama-c08216.akiya-athome.jp/bukken/detail/buy/7661",
+  "price": "212万円",
+  "desc": "N/A",
+  "area": "162.1㎡",
+  "type": "売土地",
+  "location": "茨城県笠間市泉",
+  "locationId": "08"
+ },
+ {
+  "title": "常総市中妻町【戸建住宅／売買002】",
+  "link": "https://joso-c08211.akiya-athome.jp/bukken/detail/buy/6213",
+  "price": "390万円",
+  "desc": "農村地帯にある住宅です。",
+  "area": "77.84㎡142.14㎡",
+  "type": "売戸建",
+  "location": "茨城県常総市中妻町",
+  "locationId": "08"
+ },
+ {
+  "title": "物件第34号",
+  "link": "https://kitaibaraki-c08215.akiya-athome.jp/bukken/detail/buy/6150",
+  "price": "400万円",
+  "desc": "高台にある閑静な住宅街にある土地です。176坪と広い土地となっており、国道6号にもアクセスしやすい場所となっています。",
+  "area": "584.12㎡",
+  "type": "売土地",
+  "location": "茨城県北茨城市関本町関本中",
+  "locationId": "08"
+ },
+ {
+  "title": "茨城県笠間市　物件登録番号空地-3",
+  "link": "https://kasama-c08216.akiya-athome.jp/bukken/detail/buy/6030",
+  "price": "95万円",
+  "desc": "N/A",
+  "area": "111.49㎡",
+  "type": "売土地",
+  "location": "茨城県笠間市本戸",
+  "locationId": "08"
+ },
+ {
+  "title": "売戸建住宅【15】",
+  "link": "https://chikusei-c08227.akiya-athome.jp/bukken/detail/buy/5535",
+  "price": "250万円",
+  "desc": "※古屋ありの土地としての販売\n※建物としての利用不可主要施設等への距離：中小学校0.6ｋｍ、下館北中学校0.8ｋｍ",
+  "area": "56.61㎡208㎡",
+  "type": "売戸建",
+  "location": "茨城県筑西市折本",
+  "locationId": "08"
+ },
+ {
+  "title": "売戸建住宅【18】",
+  "link": "https://chikusei-c08227.akiya-athome.jp/bukken/detail/buy/5537",
+  "price": "1,000万円",
+  "desc": "補修の要・不要：大幅な補修が必要（補修の費用負担：入居者負担）、設備状況：風呂（灯油）、上水道（井戸水）、下水道、トイレ（洋式）主要施設等への距離：新治小学校3.2ｋｍ、協和中学校2.6ｋｍ、ときわ保育園0.5ｋｍ、協和中央病院1.2ｋｍ、スーパー1.5ｋｍ",
+  "area": "184.26㎡1441.68㎡",
+  "type": "売戸建",
+  "location": "茨城県筑西市横塚",
+  "locationId": "08"
+ },
+ {
+  "title": "売戸建住宅【5】",
+  "link": "https://tsukuba-c08220.akiya-athome.jp/bukken/detail/buy/5197",
+  "price": "500万円",
+  "desc": "・大幅な補修が必要（詳細は要相談）\n・2014年から管理中",
+  "area": "95.49㎡275.1㎡",
+  "type": "売戸建",
+  "location": "茨城県つくば市稲岡",
+  "locationId": "08"
+ },
+ {
+  "title": "ＪＲ水郡線 常陸太田駅/車35分",
+  "link": "https://hitachiota-c08212.akiya-athome.jp/bukken/detail/buy/4754",
+  "price": "0万円",
+  "desc": "認定こども園・小中一貫校有り。充実した教育環境\n温泉施設隣接毎日徒歩で通えます！！\n土地代0円！\n↓詳細チラシ↓\nhttp://www.city.hitachiota.ibaraki.jp/data/doc/1596619140_doc_34_0.pdf",
+  "area": "311.54㎡",
+  "type": "売土地",
+  "location": "茨城県常陸太田市大中町",
+  "locationId": "08"
+ },
+ {
+  "title": "物件第15号",
+  "link": "https://kitaibaraki-c08215.akiya-athome.jp/bukken/detail/buy/4050",
+  "price": "110万円",
+  "desc": "駅から徒歩10分の場所にあり、通勤通学やレジャーなどに便利な土地です。海岸の近くにあるという立地も大きな魅力です。",
+  "area": "330.42㎡",
+  "type": "売土地",
+  "location": "茨城県北茨城市中郷町粟野",
+  "locationId": "08"
+ },
+ {
+  "title": "物件第13号",
+  "link": "https://kitaibaraki-c08215.akiya-athome.jp/bukken/detail/buy/4013",
+  "price": "3,350万円",
+  "desc": "天心記念五浦美術館の目の前で、六角堂や五浦海岸まで歩いてすぐ。\n北茨城市の魅力が詰まった地域に位置する好立地な物件です。",
+  "area": "2456.16㎡",
+  "type": "売土地",
+  "location": "茨城県北茨城市大津町",
+  "locationId": "08"
+ },
+ {
+  "title": "物件第22号",
+  "link": "https://kitaibaraki-c08215.akiya-athome.jp/bukken/detail/buy/4082",
+  "price": "320万円",
+  "desc": "近隣には中郷保育園、中郷第二小学校があります。\n常磐自動車道高萩ICも車で約5分の距離にあります。\n日帰り温泉施設「中郷温泉通りゃんせ」も徒歩約10分。",
+  "area": "403㎡",
+  "type": "売土地",
+  "location": "茨城県北茨城市中郷町日棚",
+  "locationId": "08"
+ },
+ {
+  "title": "物件第18号",
+  "link": "https://kitaibaraki-c08215.akiya-athome.jp/bukken/detail/buy/4055",
+  "price": "620万円",
+  "desc": "閑静な住宅街にある物件です。\n6号国道にもアクセスしやすく、通勤やレジャーに便利な立地です。",
+  "area": "332㎡",
+  "type": "売土地",
+  "location": "茨城県北茨城市大津町北町",
+  "locationId": "08"
+ },
+ {
+  "title": "物件第14号",
+  "link": "https://kitaibaraki-c08215.akiya-athome.jp/bukken/detail/buy/4046",
+  "price": "121万円",
+  "desc": "国道近くの、通勤等に便利な立地にある土地です。徒歩圏内にはスーパーやコンビニもあります。近くには大津漁港があり、北茨城の魅力を肌で感じることができる物件です。",
+  "area": "80㎡",
+  "type": "売土地",
+  "location": "茨城県北茨城市関南町仁井田",
+  "locationId": "08"
+ },
+ {
+  "title": "売地【5】",
+  "link": "https://tone-t08564.akiya-athome.jp/bukken/detail/buy/3976",
+  "price": "500万円",
+  "desc": "N/A",
+  "area": "199.31㎡",
+  "type": "売土地",
+  "location": "茨城県北相馬郡利根町大字羽根野",
+  "locationId": "08"
+ },
+ {
+  "title": "売地【10】",
+  "link": "https://tone-t08564.akiya-athome.jp/bukken/detail/buy/3973",
+  "price": "360万円",
+  "desc": "N/A",
+  "area": "167.45㎡",
+  "type": "売土地",
+  "location": "茨城県北相馬郡利根町大字布川",
+  "locationId": "08"
+ },
+ {
+  "title": "売地【13】",
+  "link": "https://tone-t08564.akiya-athome.jp/bukken/detail/buy/3971",
+  "price": "180万円",
+  "desc": "水道は敷地への上水道引込はないが、前面道路に水道管有",
+  "area": "192㎡",
+  "type": "売土地",
+  "location": "茨城県北相馬郡利根町大字羽根野",
+  "locationId": "08"
+ },
+ {
+  "title": "売地【19】",
+  "link": "https://tone-t08564.akiya-athome.jp/bukken/detail/buy/3966",
+  "price": "150万円",
+  "desc": "N/A",
+  "area": "205.2㎡",
+  "type": "売土地",
+  "location": "茨城県北相馬郡利根町大字羽根野",
+  "locationId": "08"
+ },
+ {
+  "title": "売地【20】",
+  "link": "https://tone-t08564.akiya-athome.jp/bukken/detail/buy/3963",
+  "price": "217万円",
+  "desc": "ガスは敷地及び前面道路へのガス管引込はないが、西側道路にガス管有。\n水道は敷地への上水道引込はないが、前面道路に水道管有。",
+  "area": "205.3㎡",
+  "type": "売土地",
+  "location": "茨城県北相馬郡利根町大字羽根野",
+  "locationId": "08"
+ },
+ {
+  "title": "売地【22】",
+  "link": "https://tone-t08564.akiya-athome.jp/bukken/detail/buy/3962",
+  "price": "300万円",
+  "desc": "N/A",
+  "area": "177㎡",
+  "type": "売土地",
+  "location": "茨城県北相馬郡利根町大字布川",
+  "locationId": "08"
+ },
+ {
+  "title": "売地【23】",
+  "link": "https://tone-t08564.akiya-athome.jp/bukken/detail/buy/3961",
+  "price": "170万円",
+  "desc": "N/A",
+  "area": "186.98㎡",
+  "type": "売土地",
+  "location": "茨城県北相馬郡利根町大字布川",
+  "locationId": "08"
+ },
+ {
+  "title": "売地【26】",
+  "link": "https://tone-t08564.akiya-athome.jp/bukken/detail/buy/3944",
+  "price": "180万円",
+  "desc": "N/A",
+  "area": "166.53㎡",
+  "type": "売土地",
+  "location": "茨城県北相馬郡利根町大字早尾",
+  "locationId": "08"
+ },
+ {
+  "title": "売地【24】",
+  "link": "https://tone-t08564.akiya-athome.jp/bukken/detail/buy/3943",
+  "price": "150万円",
+  "desc": "N/A",
+  "area": "168.19㎡",
+  "type": "売土地",
+  "location": "茨城県北相馬郡利根町大字早尾",
+  "locationId": "08"
+ },
+ {
+  "title": "売地【34】",
+  "link": "https://tone-t08564.akiya-athome.jp/bukken/detail/buy/3937",
+  "price": "250万円",
+  "desc": "N/A",
+  "area": "196.74㎡",
+  "type": "売土地",
+  "location": "茨城県北相馬郡利根町大字布川",
+  "locationId": "08"
+ },
+ {
+  "title": "売地【27】",
+  "link": "https://tone-t08564.akiya-athome.jp/bukken/detail/buy/3942",
+  "price": "168万円",
+  "desc": "N/A",
+  "area": "176.54㎡",
+  "type": "売土地",
+  "location": "茨城県北相馬郡利根町大字羽根野",
+  "locationId": "08"
+ },
+ {
+  "title": "茨城県笠間市　物件登録番号空地-1",
+  "link": "https://kasama-c08216.akiya-athome.jp/bukken/detail/buy/2931",
+  "price": "250万円",
+  "desc": "N/A",
+  "area": "251.09㎡",
+  "type": "売土地",
+  "location": "茨城県笠間市福原",
+  "locationId": "08"
+ },
+ {
+  "title": "茨城県笠間市　物件登録番号13",
+  "link": "https://kasama-c08216.akiya-athome.jp/bukken/detail/buy/899",
+  "price": "500万円",
+  "desc": "N/A",
+  "area": "149.88㎡210.31㎡",
+  "type": "売戸建",
+  "location": "茨城県笠間市笠間",
+  "locationId": "08"
+ }
+]
