@@ -1,4 +1,4 @@
-module example.com/akiya-scrapper
+module github.com/redcowe/akiya-scrapper
 
 go 1.18
 
