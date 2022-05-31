@@ -1,10 +1,13 @@
 package main
 
 import (
-	"github.com/redcowe/akiya-scrapper/scrapper"
+	//"github.com/redcowe/akiya-scrapper/scrapper"
+	"github.com/redcowe/akiya-scrapper/database"
 )
 
 func main() {
-	locationID := "08"
-	scrapper.ScrapeAkiyas(locationID)
+
+	database.CreateTable()
+	//locationID := "08"
+	//scrapper.ScrapeAkiyas(locationID)
 }

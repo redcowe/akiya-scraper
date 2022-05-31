@@ -1,12 +1,13 @@
 package akiya
 
 type Akiya struct {
-	Title      string `json:"title"`
-	Link       string `json:"link"`
-	Price      string `json:"price"`
-	Desc       string `json:"desc"`
-	Area       string `json:"area"`
-	Type       string `json:"type"`
-	Location   string `json:"location"`
-	LocationID string `json:"locationId"`
+	ID         uint `gorm:"primaryKey"`
+	Title      string
+	Link       string
+	Price      string
+	Desc       string
+	Area       string
+	Type       string
+	Location   string
+	LocationID string
 }

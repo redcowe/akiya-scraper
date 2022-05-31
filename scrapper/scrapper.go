@@ -31,7 +31,7 @@ func writeFile(data []akiya.Akiya, id string) {
 func ScrapeAkiyas(locationID string) {
 
 	id := locationID
-	url := "https://www.akiya-athome.jp/buy/" + id + "/" + "?br_kbn=buy&pref_cd=" + id + "&page=1&search_sort=kokai_date&item_count=500"
+	url := "https://www.akiya-athome.jp/buy/" + id + "/" + "?br_kbn=buy&pref_cd=" + id + "&page=1&search_sort=kokai_date&item_count=600"
 
 	akiyaSlice := []akiya.Akiya{}
 	c := colly.NewCollector(
