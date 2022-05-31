@@ -1,14 +1,13 @@
 package scrapper
 
 import (
-	"encoding/json"
 	"fmt"
-	"io/ioutil"
 	"strings"
 	"time"
 
 	"github.com/gocolly/colly"
 	"github.com/redcowe/akiya-scrapper/akiya"
+	"github.com/redcowe/akiya-scrapper/database"
 )
 
 //helper function for converting empty descriptions into proper format
@@ -19,21 +18,12 @@ func convertEmptyDesc(s *string) string {
 	return *s
 }
 
-//function for JSONifying the object and writing to a file
-func writeFile(data []akiya.Akiya, id string) {
-	file, err := json.MarshalIndent(data, "", " ")
-	if err != nil {
-		return
-	}
-	_ = ioutil.WriteFile(id+".json", file, 0644)
-}
-
 func ScrapeAkiyas(locationID string) {
 
 	id := locationID
-	url := "https://www.akiya-athome.jp/buy/" + id + "/" + "?br_kbn=buy&pref_cd=" + id + "&page=1&search_sort=kokai_date&item_count=600"
+	url := "https://www.akiya-athome.jp/buy/" + id + "/" + "?br_kbn=buy&pref_cd=" + id + "&page=1&search_sort=kokai_date&item_count=20"
 
-	akiyaSlice := []akiya.Akiya{}
+	//akiyaSlice := []akiya.Akiya{}
 	c := colly.NewCollector(
 		//Setting domains
 		colly.AllowedDomains(
@@ -59,12 +49,7 @@ func ScrapeAkiyas(locationID string) {
 			Location:   akiyaHTML.Find("ul.all").Find("li").Find("dt:contains(所在地)").Next().Text(),
 			LocationID: id,
 		}
-		akiyaJSON, err := json.MarshalIndent(akiya, "", " ")
-		if err != nil {
-			return
-		}
-		fmt.Println(string(akiyaJSON))
-		akiyaSlice = append(akiyaSlice, akiya)
+		database.InsertAkiya(&akiya)
 	})
 
 	c.OnRequest(func(r *colly.Request) {
@@ -72,5 +57,4 @@ func ScrapeAkiyas(locationID string) {
 	})
 
 	c.Visit(url)
-	writeFile(akiyaSlice, id)
 }

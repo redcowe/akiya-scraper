@@ -1,7 +1,7 @@
 package akiya
 
 type Akiya struct {
-	ID         uint `gorm:"primaryKey"`
+	ID         uint `gorm:"primaryKey:autoIncrement:not null"`
 	Title      string
 	Link       string
 	Price      string
@@ -11,3 +11,5 @@ type Akiya struct {
 	Location   string
 	LocationID string
 }
+
+type Akiyas []Akiya
