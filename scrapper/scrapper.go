@@ -21,7 +21,7 @@ func convertEmptyDesc(s *string) string {
 func ScrapeAkiyas(locationID string) {
 
 	id := locationID
-	url := "https://www.akiya-athome.jp/buy/" + id + "/" + "?br_kbn=buy&pref_cd=" + id + "&page=1&search_sort=kokai_date&item_count=20"
+	url := "https://www.akiya-athome.jp/buy/" + id + "/" + "?br_kbn=buy&pref_cd=" + id + "&page=1&search_sort=kokai_date&item_count=500"
 
 	//akiyaSlice := []akiya.Akiya{}
 	c := colly.NewCollector(
@@ -39,7 +39,8 @@ func ScrapeAkiyas(locationID string) {
 	c.OnHTML("section.propety", func(e *colly.HTMLElement) {
 		akiyaHTML := e.DOM
 		desc := akiyaHTML.Find("div.description").Text()
-		akiya := akiya.Akiya{ //Filling akiya object
+		//Filling akiya object
+		akiya := akiya.Akiya{
 			Title:      strings.TrimSpace(akiyaHTML.Find("div.propetyTitle").Find("a").Text()),
 			Link:       akiyaHTML.Find("div.propetyTitle").Find("a").AttrOr("href", "N/A"),
 			Price:      akiyaHTML.Find("dl.price").Find("dd").Text(),
@@ -54,6 +55,10 @@ func ScrapeAkiyas(locationID string) {
 
 	c.OnRequest(func(r *colly.Request) {
 		fmt.Println("Visiting", r.URL.String())
+	})
+
+	c.OnScraped(func(r *colly.Response) {
+		fmt.Println("Finished", r.Request.URL)
 	})
 
 	c.Visit(url)
