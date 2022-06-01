@@ -1,15 +1,19 @@
 package main
 
-import "github.com/redcowe/akiya-scrapper/scrapper"
+import (
+	"fmt"
+
+	"github.com/redcowe/akiya-scrapper/database"
+)
 
 func main() {
 
-	locationID := "21"
-	scrapper.ScrapeAkiyas(locationID)
+	//locationID := "21"
+	//scrapper.ScrapeAkiyas(locationID)
 
-	//Akiyas := database.GetAkiyas()
-	//for _, akiya := range Akiyas {
-	//	fmt.Println(akiya.ID)
-	//	fmt.Println("----------")
-	//}
+	Akiyas := database.GetAkiyas()
+	for _, akiya := range Akiyas {
+		fmt.Println(akiya.ID)
+		fmt.Println("----------")
+	}
 }

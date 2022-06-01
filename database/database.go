@@ -28,6 +28,7 @@ func connectDB() error {
 		return err
 	}
 	DB = db
+	initalized = true
 	return nil
 }
 
