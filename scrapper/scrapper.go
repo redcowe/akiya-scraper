@@ -34,7 +34,7 @@ func ScrapeAkiyas(locationID string) {
 	)
 
 	//Increasing timeout for larger requests
-	c.SetRequestTimeout(time.Duration(30) * time.Second)
+	c.SetRequestTimeout(time.Duration(35) * time.Second)
 
 	c.OnHTML("section.propety", func(e *colly.HTMLElement) {
 		akiyaHTML := e.DOM

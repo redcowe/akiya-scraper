@@ -13,13 +13,20 @@ func main() {
 	//clearing db before updated new values
 	database.ClearDB()
 
-	for i := 10; i <= 12; i++ {
-		scrapper.ScrapeAkiyas(strconv.Itoa(i))
-		fmt.Println("------------")
+	//Getting content from every page
+	for i := 1; i <= 47; i++ {
+		locationID := strconv.Itoa(i)
+		if i < 10 {
+			locationID = "0" + strconv.Itoa(i)
+		}
+		scrapper.ScrapeAkiyas(locationID)
+		fmt.Println("-------------------------------------------------------------------------------------------------------------------")
 	}
-	Akiyas := database.GetAkiyas()
-	for _, akiya := range Akiyas {
-		fmt.Println(akiya.ID)
-		fmt.Println("----------")
-	}
+
+	//Displaying IDs
+	// Akiyas := database.GetAkiyas()
+	// for _, akiya := range Akiyas {
+	// 	fmt.Println(akiya.ID)
+	// 	fmt.Println("----------")
+	// }
 }

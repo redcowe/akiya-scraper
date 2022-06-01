@@ -32,14 +32,6 @@ func connectDB() error {
 	return nil
 }
 
-// func CreateTable() {
-// 	db, err := connectDB()
-// 	if err != nil {
-// 		fmt.Printf("Unable to connect to databse, %v\n", err)
-// 	}
-// 	db.Migrator().CreateTable(&akiya.Akiya{})
-// }
-
 // Helper function to insert a new Akiya
 func InsertAkiya(a *akiya.Akiya) {
 	if !initalized {
@@ -64,6 +56,7 @@ func GetAkiyas() akiya.Akiyas {
 	return akiyas
 }
 
+//Helper function(s) to delete akiyas from DB
 func deleteAkiya(a *akiya.Akiya) {
 	DB.Delete(a, a.ID)
 }
@@ -75,6 +68,6 @@ func ClearDB() {
 		fmt.Printf("Clearing...%v\n", akiya.ID)
 		deleteAkiya(&akiya)
 	}
-	//DB.Exec("TRUNCATE TABLE akiyas")
+	//Reseting primary ID count
 	DB.Exec("TRUNCATE akiyas RESTART IDENTITY;")
 }
