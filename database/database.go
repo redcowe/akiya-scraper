@@ -63,3 +63,18 @@ func GetAkiyas() akiya.Akiyas {
 	DB.Find(&akiyas)
 	return akiyas
 }
+
+func deleteAkiya(a *akiya.Akiya) {
+	DB.Delete(a, a.ID)
+}
+
+func ClearDB() {
+	fmt.Println("Clearing DB...")
+	Akiyas := GetAkiyas()
+	for _, akiya := range Akiyas {
+		fmt.Printf("Clearing...%v\n", akiya.ID)
+		deleteAkiya(&akiya)
+	}
+	//DB.Exec("TRUNCATE TABLE akiyas")
+	DB.Exec("TRUNCATE akiyas RESTART IDENTITY;")
+}
