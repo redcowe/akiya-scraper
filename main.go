@@ -24,9 +24,9 @@ func main() {
 	}
 
 	//Displaying IDs
-	// Akiyas := database.GetAkiyas()
-	// for _, akiya := range Akiyas {
-	// 	fmt.Println(akiya.ID)
-	// 	fmt.Println("----------")
-	// }
+	Akiyas := database.GetAkiyas()
+	for _, akiya := range Akiyas {
+		fmt.Println(akiya.ID)
+		fmt.Println("----------")
+	}
 }
