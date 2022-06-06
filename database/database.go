@@ -34,8 +34,16 @@ func connectDB() error {
 	return nil
 }
 
-func CreateTable() {
-	DB.AutoMigrate(akiya.AkiyaRent{})
+//helper function for creating tables
+func CreateTable(i interface{}) error {
+	if !initalized {
+		err := connectDB()
+		if err != nil {
+			fmt.Println("Unabled to connect to server", err)
+		}
+	}
+	err := DB.AutoMigrate(&i)
+	return err
 }
 
 // Helper function to insert a new Akiya
@@ -51,7 +59,7 @@ func InsertAkiyaBuy(a *akiya.Akiya) {
 }
 
 //Helper function to get all Akiyas in DB
-func GetAkiyas() akiya.Akiyas {
+func GetAkiyasBuy() akiya.Akiyas {
 	if !initalized {
 		err := connectDB()
 		if err != nil {
@@ -63,18 +71,14 @@ func GetAkiyas() akiya.Akiyas {
 	return akiyas
 }
 
-//Helper function(s) to delete akiyas from DB
-func deleteAkiya(a *akiya.Akiya) {
-	DB.Delete(a, a.ID)
-}
-
-func ClearDB() {
-	fmt.Println("Clearing DB...")
-	Akiyas := GetAkiyas()
-	for _, akiya := range Akiyas {
-		fmt.Printf("Clearing...%v\n", akiya.ID)
-		deleteAkiya(&akiya)
+func ClearDBBuy() {
+	if !initalized {
+		err := connectDB()
+		if err != nil {
+			fmt.Println("Unabled to connect to server", err)
+		}
 	}
+	fmt.Println("Clearing DB...")
 	//Reseting primary ID count
 	DB.Exec("TRUNCATE akiyas RESTART IDENTITY;")
 }

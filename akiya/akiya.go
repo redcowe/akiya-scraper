@@ -23,6 +23,7 @@ type AkiyaRent struct {
 	Location   string
 	LocationID string
 	Layout     string
+	WhenBuilt  string
 }
 
 type Akiyas []Akiya
