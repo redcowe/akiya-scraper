@@ -34,51 +34,57 @@ func connectDB() error {
 	return nil
 }
 
-//helper function for creating tables
-func CreateTable(i interface{}) error {
+// Helper function for checking if database connection is initalized
+func checkInitialized() {
 	if !initalized {
 		err := connectDB()
 		if err != nil {
 			fmt.Println("Unabled to connect to server", err)
 		}
 	}
+}
+
+//helper function for creating tables
+func CreateTable(i interface{}) error {
+	checkInitialized()
 	err := DB.AutoMigrate(&i)
 	return err
 }
 
 // Helper function to insert a new Akiya
 func InsertAkiyaBuy(a *akiya.Akiya) {
-
-	if !initalized {
-		err := connectDB()
-		if err != nil {
-			fmt.Println("Unabled to connect to server", err)
-		}
-	}
+	checkInitialized()
 	DB.Create(&a)
 }
 
 //Helper function to get all Akiyas in DB
 func GetAkiyasBuy() akiya.Akiyas {
-	if !initalized {
-		err := connectDB()
-		if err != nil {
-			fmt.Println("Unabled to connect to server", err)
-		}
-	}
+	checkInitialized()
 	var akiyas []akiya.Akiya
 	DB.Find(&akiyas)
 	return akiyas
 }
 
 func ClearDBBuy() {
-	if !initalized {
-		err := connectDB()
-		if err != nil {
-			fmt.Println("Unabled to connect to server", err)
-		}
-	}
-	fmt.Println("Clearing DB...")
-	//Reseting primary ID count
+	checkInitialized()
+	fmt.Println("Clearing Buy DB...")
+	//Reseting primary ID count and clearning DB
 	DB.Exec("TRUNCATE akiyas RESTART IDENTITY;")
+}
+
+func InsertAkiyaRent(a *akiya.AkiyaRent) {
+	DB.Create(*a)
+}
+
+func GetAkiyaRent() akiya.AkiyasRent {
+	checkInitialized()
+	var akiyasRent []akiya.AkiyaRent
+	DB.Find(&akiyasRent)
+	return akiyasRent
+}
+
+func ClearDBRent() {
+	checkInitialized()
+	fmt.Println("Clearing Rent DB...")
+	DB.Exec("TRUNCATE akiya_rents RESTART IDENTITY;")
 }

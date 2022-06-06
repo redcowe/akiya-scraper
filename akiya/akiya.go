@@ -27,3 +27,5 @@ type AkiyaRent struct {
 }
 
 type Akiyas []Akiya
+
+type AkiyasRent []AkiyaRent

@@ -72,7 +72,30 @@ func ScrapeAkiyasRent(locationId string) {
 	c.SetRequestTimeout(time.Duration(15) * time.Second)
 
 	c.OnHTML("section.propety", func(e *colly.HTMLElement) {
-		// akiyaHTML := e.DOM
+		akiyaHTML := e.DOM
+		desc := akiyaHTML.Find("div.description").Text()
+
+		akiya := akiya.AkiyaRent{
+			Title:      strings.TrimSpace(akiyaHTML.Find("div.propetyTitle").Find("a").Text()),
+			Link:       akiyaHTML.Find("div.propetyTitle").Find("a").AttrOr("href", "N/A"),
+			Rent:       akiyaHTML.Find("dl.price").Find("dd").Text(),
+			Desc:       convertEmptyDesc(&desc),
+			Area:       akiyaHTML.Find("ul.flex").Find("li").Find("dl").Find("dd:contains(㎡)").Text(),
+			Location:   akiyaHTML.Find("ul.all").Find("li").Find("dt:contains(所在地)").Next().Text(),
+			LocationID: id,
+			Layout:     akiyaHTML.Find("ul.flex").Find("li").Find("dl:contains(間取)").Next().Text(),
+			WhenBuilt:  akiyaHTML.Find("ul.all").Find("li").Find("dt:contains(築年月)").Next().Text(),
+			Type:       akiyaHTML.Find("ul.flex").Find("li").Find("dt:contains(物件種目)").Next().Text(),
+		}
+		database.InsertAkiyaRent(&akiya)
+	})
+
+	c.OnRequest(func(r *colly.Request) {
+		fmt.Println("Visiting", r.URL.String())
+	})
+
+	c.OnScraped(func(r *colly.Response) {
+		fmt.Println("Finished", r.Request.URL)
 	})
 
 	c.Visit(url)
