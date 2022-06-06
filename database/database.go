@@ -34,8 +34,13 @@ func connectDB() error {
 	return nil
 }
 
+func CreateTable() {
+	DB.AutoMigrate(akiya.AkiyaRent{})
+}
+
 // Helper function to insert a new Akiya
-func InsertAkiya(a *akiya.Akiya) {
+func InsertAkiyaBuy(a *akiya.Akiya) {
+
 	if !initalized {
 		err := connectDB()
 		if err != nil {

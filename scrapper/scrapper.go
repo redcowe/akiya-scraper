@@ -10,6 +10,17 @@ import (
 	"github.com/redcowe/akiya-scrapper/database"
 )
 
+//Variables for ID and collector
+var id = "0"
+var c = colly.NewCollector(
+	//Setting domains
+	colly.AllowedDomains(
+		"akiya-athome.jp/",
+		"https://www.akiya-athome.jp",
+		"www.akiya-athome.jp",
+	),
+)
+
 //helper function for converting empty descriptions into proper format
 func convertEmptyDesc(s *string) string {
 	if *s == "" {
@@ -18,19 +29,10 @@ func convertEmptyDesc(s *string) string {
 	return *s
 }
 
-func ScrapeAkiyas(locationID string) {
+func ScrapeAkiyasBuy(locationID string) {
 
-	id := locationID
+	id = locationID
 	url := "https://www.akiya-athome.jp/buy/" + id + "/" + "?br_kbn=buy&pref_cd=" + id + "&page=1&search_sort=kokai_date&item_count=500"
-
-	c := colly.NewCollector(
-		//Setting domains
-		colly.AllowedDomains(
-			"akiya-athome.jp/",
-			"https://www.akiya-athome.jp",
-			"www.akiya-athome.jp",
-		),
-	)
 
 	//Increasing timeout for larger requests
 	c.SetRequestTimeout(time.Duration(35) * time.Second)
@@ -49,7 +51,7 @@ func ScrapeAkiyas(locationID string) {
 			Location:   akiyaHTML.Find("ul.all").Find("li").Find("dt:contains(所在地)").Next().Text(),
 			LocationID: id,
 		}
-		database.InsertAkiya(&akiya)
+		database.InsertAkiyaBuy(&akiya)
 	})
 
 	c.OnRequest(func(r *colly.Request) {
@@ -58,6 +60,19 @@ func ScrapeAkiyas(locationID string) {
 
 	c.OnScraped(func(r *colly.Response) {
 		fmt.Println("Finished", r.Request.URL)
+	})
+
+	c.Visit(url)
+}
+
+func ScrapeAkiyasRent(locationId string) {
+	id = locationId
+	url := "https://www.akiya-athome.jp/rent/" + id + "/" + "?br_kbn=buy&pref_cd=" + id + "&page=1&search_sort=kokai_date&item_count=500"
+
+	c.SetRequestTimeout(time.Duration(15) * time.Second)
+
+	c.OnHTML("section.propety", func(e *colly.HTMLElement) {
+		// akiyaHTML := e.DOM
 	})
 
 	c.Visit(url)
