@@ -11,15 +11,6 @@ import (
 )
 
 //Variables for ID and collector
-var id = "0"
-var c = colly.NewCollector(
-	//Setting domains
-	colly.AllowedDomains(
-		"akiya-athome.jp/",
-		"https://www.akiya-athome.jp",
-		"www.akiya-athome.jp",
-	),
-)
 
 //helper function for converting empty descriptions into proper format
 func convertEmptyDesc(s *string) string {
@@ -30,9 +21,16 @@ func convertEmptyDesc(s *string) string {
 }
 
 func ScrapeAkiyasBuy(locationID string) {
+	c := colly.NewCollector(
+		//Setting domains
+		colly.AllowedDomains(
+			"akiya-athome.jp/",
+			"https://www.akiya-athome.jp",
+			"www.akiya-athome.jp",
+		),
+	)
 
-	id = locationID
-	url := "https://www.akiya-athome.jp/buy/" + id + "/" + "?br_kbn=buy&pref_cd=" + id + "&page=1&search_sort=kokai_date&item_count=500"
+	url := "https://www.akiya-athome.jp/buy/" + locationID + "/" + "?br_kbn=buy&pref_cd=" + locationID + "&page=1&search_sort=kokai_date&item_count=500"
 
 	//Increasing timeout for larger requests
 	c.SetRequestTimeout(time.Duration(35) * time.Second)
@@ -49,7 +47,7 @@ func ScrapeAkiyasBuy(locationID string) {
 			Area:       akiyaHTML.Find("ul.flex").Find("li").Find("dl").Find("dd:contains(㎡)").Text(),
 			Type:       akiyaHTML.Find("div.objectTitle.cf").Find("span.objectCategory.objectCategory_buy").Text(),
 			Location:   akiyaHTML.Find("ul.all").Find("li").Find("dt:contains(所在地)").Next().Text(),
-			LocationID: id,
+			LocationID: locationID,
 		}
 		database.InsertAkiyaBuy(&akiya)
 	})
@@ -66,10 +64,19 @@ func ScrapeAkiyasBuy(locationID string) {
 }
 
 func ScrapeAkiyasRent(locationId string) {
-	id = locationId
-	url := "https://www.akiya-athome.jp/rent/" + id + "/" + "?br_kbn=buy&pref_cd=" + id + "&page=1&search_sort=kokai_date&item_count=500"
 
-	c.SetRequestTimeout(time.Duration(15) * time.Second)
+	c := colly.NewCollector(
+		//Setting domains
+		colly.AllowedDomains(
+			"akiya-athome.jp/",
+			"https://www.akiya-athome.jp",
+			"www.akiya-athome.jp",
+		),
+	)
+
+	url := "https://www.akiya-athome.jp/rent/" + locationId + "/" + "?br_kbn=buy&pref_cd=" + locationId + "&page=1&search_sort=kokai_date&item_count=500"
+
+	c.SetRequestTimeout(time.Duration(20) * time.Second)
 
 	c.OnHTML("section.propety", func(e *colly.HTMLElement) {
 		akiyaHTML := e.DOM
@@ -82,8 +89,8 @@ func ScrapeAkiyasRent(locationId string) {
 			Desc:       convertEmptyDesc(&desc),
 			Area:       akiyaHTML.Find("ul.flex").Find("li").Find("dl").Find("dd:contains(㎡)").Text(),
 			Location:   akiyaHTML.Find("ul.all").Find("li").Find("dt:contains(所在地)").Next().Text(),
-			LocationID: id,
-			Layout:     akiyaHTML.Find("ul.flex").Find("li").Find("dl:contains(間取)").Next().Text(),
+			LocationID: locationId,
+			Layout:     akiyaHTML.Find("ul.flex").Find("li").Find("dt:contains(間取)").Next().Text(),
 			WhenBuilt:  akiyaHTML.Find("ul.all").Find("li").Find("dt:contains(築年月)").Next().Text(),
 			Type:       akiyaHTML.Find("ul.flex").Find("li").Find("dt:contains(物件種目)").Next().Text(),
 		}
