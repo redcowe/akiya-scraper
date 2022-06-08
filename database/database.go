@@ -73,7 +73,8 @@ func ClearDBBuy() {
 }
 
 func InsertAkiyaRent(a *akiya.AkiyaRent) {
-	DB.Create(*a)
+	checkInitialized()
+	DB.Create(&a)
 }
 
 func GetAkiyaRent() akiya.AkiyasRent {
