@@ -1,4 +1,4 @@
-<h1>Akiya Scraper/h1>
+<h1>Akiya Scraper</h1>
 
 <h2>Description</h2>
 A web scraper used to get information on various akiyas(empty houses) and properties across Japan.
