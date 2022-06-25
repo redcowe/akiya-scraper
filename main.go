@@ -27,12 +27,5 @@ func main() {
 		scrapper.ScrapeAkiyasRent(locationID)
 		fmt.Println("----------------------------------------------------------------------------------")
 	}
-
-	// //Displaying IDs
-	Akiyas := database.GetAkiyaRent()
-	for _, akiya := range Akiyas {
-		fmt.Println(akiya.ID, akiya.Link)
-		fmt.Println("----------")
-	}
 	s.Stop()
 }
